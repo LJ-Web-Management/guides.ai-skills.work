@@ -1,0 +1,70 @@
+{
+  "slug": "ai-at-work",
+  "title": "Ready for AI at work?",
+  "description": "Test your judgment on drafts, workflows, and human review.",
+  "color": "yellow",
+  "icon": "briefcase",
+  "guideSlug": "automate-repetitive-work",
+  "questions": [
+    {
+      "question": "AI invents a deadline in meeting notes. What should you do?",
+      "options": [
+        "Keep it because it seems reasonable",
+        "Check the source and mark a missing date as unconfirmed",
+        "Ask AI to invent a more convenient date"
+      ],
+      "correct": 1,
+      "explanation": "Meeting summaries must preserve actual commitments. Missing details should be visible."
+    },
+    {
+      "question": "What should a pilot measure?",
+      "options": [
+        "Only how many people opened the tool",
+        "Only how attractive the demo looked",
+        "Quality, correction effort, usefulness, and total time"
+      ],
+      "correct": 2,
+      "explanation": "A pilot should assess the whole workflow and its value, including review and correction."
+    },
+    {
+      "question": "Which automation needs a stronger review checkpoint?",
+      "options": [
+        "A draft internal checklist",
+        "An action that sends a binding quote to a customer",
+        "Sorting a synthetic example"
+      ],
+      "correct": 1,
+      "explanation": "External commitments and consequential actions need controls proportionate to their impact."
+    },
+    {
+      "question": "When should failure handling be tested?",
+      "options": [
+        "Before depending on the workflow",
+        "Only after a customer complains",
+        "Never if the first demo succeeds"
+      ],
+      "correct": 0,
+      "explanation": "Missing inputs, duplicates, service failures, and recovery need testing before reliance."
+    },
+    {
+      "question": "Does every automation need AI?",
+      "options": [
+        "Yes, automation and AI are identical",
+        "No, stable rules may solve the task more simply",
+        "Only if it uses a spreadsheet"
+      ],
+      "correct": 1,
+      "explanation": "Many repeatable tasks are better handled by conventional rules. Use AI when its flexibility adds value."
+    },
+    {
+      "question": "What should you do with an AI-generated spreadsheet formula?",
+      "options": [
+        "Use it because formulas cannot be wrong",
+        "Test expected values and edge cases",
+        "Check only whether it fits in the cell"
+      ],
+      "correct": 1,
+      "explanation": "Test formulas against known results and cases such as blanks, duplicates, and different formats."
+    }
+  ]
+}

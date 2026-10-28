@@ -1,0 +1,65 @@
+{
+  "slug": "ai-for-customer-support",
+  "category": "roles",
+  "title": "AI for customer support",
+  "description": "Draft clearer replies, find relevant policies, and recognize when a customer needs a person.",
+  "sections": [
+    {
+      "title": "Draft from an approved knowledge base",
+      "body": "Ask the tool to use current support information and cite the relevant policy section. A friendly reply can still be wrong if it promises a refund or exception that is not authorized. Review the customer’s actual question and avoid introducing facts that are missing from the case.",
+      "bullets": [
+        "Check policy dates and eligibility details.",
+        "Remove unnecessary personal information from prompts."
+      ]
+    },
+    {
+      "title": "Use summaries to improve handoffs",
+      "body": "Summarize the issue, steps already tried, and unresolved questions. Preserve the customer’s meaning and distinguish their statements from verified facts. A good summary helps the next person understand the situation without repeatedly asking the customer for the same information.",
+      "bullets": [
+        "Include relevant case references through approved systems.",
+        "Check that important context was not omitted."
+      ]
+    },
+    {
+      "title": "Know when to escalate",
+      "body": "Escalate complex complaints, safety concerns, unusual exceptions, and situations outside the tool’s authority. Track errors and review patterns before expanding automation. Quality measures should include resolution, correctness, and customer experience, not only response speed.",
+      "bullets": [
+        "Give customers a usable route to human support.",
+        "Review sensitive or consequential replies before sending."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A useful boundary",
+    "text": "AI drafts an explanation of a published returns policy. A support specialist checks eligibility and decides whether an exception is authorized. The draft does not make that decision on its own."
+  },
+  "exercise": "Write a sample support question, a correct policy excerpt, and an unrelated excerpt. Check whether the assistant uses the right evidence.",
+  "faq": [
+    {
+      "question": "Can AI handle every support request?",
+      "answer": "No. Exceptions, sensitive situations, and unclear evidence need suitable escalation and human judgment."
+    },
+    {
+      "question": "Which result matters most?",
+      "answer": "Use a balanced view of accuracy, resolution quality, customer experience, and total effort."
+    }
+  ],
+  "sourceKeys": [
+    "privacy",
+    "nist"
+  ],
+  "level": "Role guide",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "ICO: Artificial intelligence and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/index.md"
+}

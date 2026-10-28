@@ -14,6 +14,10 @@ const fetchResource=async(path)=>{
 let lastError;
 for(let attempt=1;attempt<=12;attempt++){
   try{
+    if(process.env.EXPECTED_RELEASE){
+      const marker=await(await fetchResource('/site-release.json')).json();
+      if(marker.release!==process.env.EXPECTED_RELEASE)throw new Error('The latest generated release has not reached GitHub Pages yet.');
+    }
     const html=await(await fetchResource('/')).text();
     if(!/<h1>A little learning\./.test(html))throw new Error('The generated homepage has not reached the live origin yet.');
     if(!html.includes(`rel="canonical" href="${siteUrl}/"`))throw new Error('The homepage canonical does not match the live site URL.');

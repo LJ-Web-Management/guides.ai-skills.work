@@ -1,0 +1,25 @@
+{
+  "name": "The AI Skills Field Guide",
+  "description": "Public guide tools for compatible browser agents.",
+  "status": "experimental",
+  "specification": "https://github.com/webmachinelearning/webmcp",
+  "transport": "in-page browser API",
+  "registration": "document.modelContext.registerTool with navigator.modelContext compatibility fallback",
+  "documentation": "https://lj-web-management.github.io/guides.ai-skills.work/developers/webmcp/",
+  "openapi": "https://lj-web-management.github.io/guides.ai-skills.work/openapi.json",
+  "tools": [
+    {
+      "name": "search_guides",
+      "description": "Search public guides by query and optional topic."
+    },
+    {
+      "name": "get_guide",
+      "description": "Read a public guide by exact slug."
+    },
+    {
+      "name": "list_quizzes",
+      "description": "List quiz metadata without reading any attempt."
+    }
+  ],
+  "notes": "This file documents discovery; it is not a remote MCP server or a standardized WebMCP manifest. Tools are registered by the page script only when the browser exposes a supported API. No personal state is exposed."
+}

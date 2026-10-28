@@ -1,0 +1,65 @@
+{
+  "slug": "30-day-ai-learning-plan",
+  "category": "careers",
+  "title": "A small-step, 30-day AI plan",
+  "description": "Build a manageable month of learning around practical tasks, feedback, and a finished project.",
+  "sections": [
+    {
+      "title": "Week one: build a safe foundation",
+      "body": "Learn the basic concepts, write a clear prompt, check a generated answer, and review privacy boundaries. Use short sessions and public or fictional material. Keep a note of mistakes and questions. Adjust the schedule to your circumstances rather than treating a daily streak as the goal.",
+      "bullets": [
+        "Complete the AI basics and privacy lessons.",
+        "Try one task you can verify independently."
+      ]
+    },
+    {
+      "title": "Weeks two and three: practice in context",
+      "body": "Choose a task related to your work or interests. Break it into small steps and practice the difficult parts. Compare AI-assisted work with your usual method. Ask someone knowledgeable to review an example. Use the feedback to improve your process and decide whether the tool is helping.",
+      "bullets": [
+        "Practice writing, research, or data tasks that fit your goal.",
+        "Include at least one failure case and a correction."
+      ]
+    },
+    {
+      "title": "Week four: finish and explain a project",
+      "body": "Complete a small project and document the goal, source material, method, review, and limitations. Explain it without relying on a generated script. Decide what you can now do and what still needs practice. Choose your next learning goal based on the gaps you found.",
+      "bullets": [
+        "Create a short project summary.",
+        "Repeat a task from week one and compare the quality."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A realistic monthly outcome",
+    "text": "By the end of the month, you can produce a source-backed summary of a public topic, verify its key claims, and explain how you used AI. This is a concrete outcome you can assess."
+  },
+  "exercise": "Choose three short practice sessions each week. Write one specific outcome for the month and how you will demonstrate it.",
+  "faq": [
+    {
+      "question": "Will I master AI in 30 days?",
+      "answer": "No fixed schedule guarantees mastery. A month can establish useful habits and a foundation for continued learning."
+    },
+    {
+      "question": "What if I miss a day?",
+      "answer": "Resume with the next useful practice session. Adjust the plan to your available time rather than rushing through material."
+    }
+  ],
+  "sourceKeys": [
+    "literacy",
+    "nist"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "European Commission: AI literacy questions and answers",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/index.md"
+}

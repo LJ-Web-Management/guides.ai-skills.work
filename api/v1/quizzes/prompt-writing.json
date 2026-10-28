@@ -1,0 +1,70 @@
+{
+  "slug": "prompt-writing",
+  "title": "Put your prompting to the test",
+  "description": "Choose clearer instructions and more useful follow-ups.",
+  "color": "peach",
+  "icon": "pen",
+  "guideSlug": "write-better-ai-prompts",
+  "questions": [
+    {
+      "question": "Which prompt gives the clearest task?",
+      "options": [
+        "Make this better",
+        "Write something professional",
+        "Shorten this email to 120 words for new customers and preserve the deadline"
+      ],
+      "correct": 2,
+      "explanation": "A clear goal, audience, length, and fact to preserve make the result easier to produce and assess."
+    },
+    {
+      "question": "The source notes do not include an action owner. What should you ask AI to do?",
+      "options": [
+        "Guess the most likely person",
+        "Mark the owner as unconfirmed",
+        "Remove the action entirely"
+      ],
+      "correct": 1,
+      "explanation": "Missing information should remain visible rather than being filled with a plausible invention."
+    },
+    {
+      "question": "When is a short output example useful?",
+      "options": [
+        "When you need a particular structure or style",
+        "Only when the assistant cannot read",
+        "It always guarantees correctness"
+      ],
+      "correct": 0,
+      "explanation": "An example can clarify the expected format or style, but it does not guarantee factual accuracy."
+    },
+    {
+      "question": "A draft is too wordy. Which follow-up is most useful?",
+      "options": [
+        "Try harder",
+        "Make it perfect",
+        "Remove repetition and keep the three action items"
+      ],
+      "correct": 2,
+      "explanation": "Specific feedback identifies what to change and what to preserve."
+    },
+    {
+      "question": "Does assigning an expert role make the assistant a qualified professional?",
+      "options": [
+        "Yes, for any subject",
+        "No, the role instruction does not create credentials or responsibility",
+        "Only if the prompt is long"
+      ],
+      "correct": 1,
+      "explanation": "A role can set a perspective, but it does not create expertise, credentials, or accountability."
+    },
+    {
+      "question": "What should happen after receiving a good-looking final answer?",
+      "options": [
+        "Use it without reading it",
+        "Check it against the task and relevant evidence",
+        "Assume detailed instructions prevented all errors"
+      ],
+      "correct": 1,
+      "explanation": "Even a strong prompt leaves a need to review the output and verify important claims."
+    }
+  ]
+}

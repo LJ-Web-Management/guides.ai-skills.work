@@ -1,0 +1,65 @@
+{
+  "slug": "ai-email-and-meetings",
+  "category": "work",
+  "title": "Make meetings lead somewhere",
+  "description": "Turn approved meeting notes into useful summaries, action items, and concise follow-up emails.",
+  "sections": [
+    {
+      "title": "Prepare with the right information",
+      "body": "Before a meeting, ask an approved tool to organize public or permitted background notes into an agenda. Separate the decision needed from general discussion. If you plan to record or transcribe a meeting, follow applicable consent rules and your organization’s policy. Access to a tool does not establish permission to record people.",
+      "bullets": [
+        "State the purpose and required decisions.",
+        "Avoid uploading confidential notes to an unapproved service."
+      ]
+    },
+    {
+      "title": "Separate decisions from suggestions",
+      "body": "Ask for distinct sections for decisions, open questions, and actions. Require the assistant to preserve the difference between an idea and an agreed commitment. Each action should have an owner and date only when the notes actually specify them. Missing details should be marked unconfirmed.",
+      "bullets": [
+        "Check names and speaker attribution.",
+        "Compare every action item with the source notes."
+      ]
+    },
+    {
+      "title": "Send a useful follow-up",
+      "body": "Keep the email short enough for the team to act on. Include the agreed decisions, responsibilities, deadlines, and unresolved questions. Confirm the recipients and permissions before sending. A draft is an opportunity to review, especially when the message creates expectations outside your team.",
+      "bullets": [
+        "Ask people to correct misunderstood commitments.",
+        "Store the final notes where the team can find them."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A reviewable action list",
+    "text": "The notes say Sam will investigate two options. They do not give a deadline. The action list should say Sam: investigate options; deadline unconfirmed. It should not invent Friday as the due date."
+  },
+  "exercise": "Create fictional meeting notes with one decision, one suggestion, and one missing deadline. Check whether an assistant keeps them separate.",
+  "faq": [
+    {
+      "question": "Can AI send the follow-up automatically?",
+      "answer": "Some tools can, but review the facts, recipients, and commitments before enabling automatic external communication."
+    },
+    {
+      "question": "Should every meeting be transcribed?",
+      "answer": "No. Consider consent, sensitivity, retention, and whether transcription is necessary."
+    }
+  ],
+  "sourceKeys": [
+    "privacy",
+    "nist"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "ICO: Artificial intelligence and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/index.md"
+}

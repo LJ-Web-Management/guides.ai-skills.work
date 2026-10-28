@@ -1,0 +1,77 @@
+# The AI Skills Field Guide
+
+> Practical AI lessons, honest career guidance, and free knowledge quizzes. Build useful AI skills, one small step at a time.
+
+Public educational content from ai-skills.work. Quizzes are informal knowledge checks, not credentials, employment assessments, or job-security predictions. Dates identify the content version; consult original sources for current requirements.
+
+## Start here
+
+- [Home](https://lj-web-management.github.io/guides.ai-skills.work/): Learning paths, guides, and free quizzes.
+- [Full text](https://lj-web-management.github.io/guides.ai-skills.work/llms-full.txt): Complete guide content in one text resource.
+- [Editorial approach](https://lj-web-management.github.io/guides.ai-skills.work/about/): Scope, evidence, and limitations.
+
+## Learn AI
+
+- [AI, without the overwhelm](https://lj-web-management.github.io/guides.ai-skills.work/learn/what-is-ai/): Understand what artificial intelligence is, how generative AI works, and where human judgment still matters. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/what-is-ai/index.md)
+- [Your first steps into AI](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/): A practical beginner roadmap for learning AI without a technical background or expensive course. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/index.md)
+- [Find the right tool for the job](https://lj-web-management.github.io/guides.ai-skills.work/learn/choose-an-ai-tool/): Choose an AI assistant by task, privacy, evidence, and cost rather than popularity. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/choose-an-ai-tool/index.md)
+- [Better prompts. More useful answers.](https://lj-web-management.github.io/guides.ai-skills.work/learn/write-better-ai-prompts/): Learn a reusable prompt structure with clear goals, relevant context, constraints, and examples. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/write-better-ai-prompts/index.md)
+- [Trust the evidence, check the answer](https://lj-web-management.github.io/guides.ai-skills.work/learn/fact-check-ai-answers/): Spot AI hallucinations and verify citations, calculations, and important claims. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/fact-check-ai-answers/index.md)
+- [Keep your information yours](https://lj-web-management.github.io/guides.ai-skills.work/learn/ai-privacy-and-safety/): Understand what to avoid uploading and how to use AI with sensible privacy boundaries. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/ai-privacy-and-safety/index.md)
+- [What makes an AI agent different?](https://lj-web-management.github.io/guides.ai-skills.work/learn/understand-ai-agents/): Understand AI agents, tool access, permissions, and the importance of review checkpoints. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/understand-ai-agents/index.md)
+- [Use AI to become a better learner](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-with-ai/): Create explanations, practice questions, and study routines while developing your own understanding. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-with-ai/index.md)
+
+## AI at work
+
+- [Research with a sharper starting point](https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/): Use AI to organize a research question, find evidence, and produce a source-backed summary. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/index.md)
+- [Write faster. Still sound like you.](https://lj-web-management.github.io/guides.ai-skills.work/work/write-and-edit-with-ai/): Draft and edit useful writing with AI while preserving accuracy, intention, and your own voice. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/write-and-edit-with-ai/index.md)
+- [Make meetings lead somewhere](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/): Turn approved meeting notes into useful summaries, action items, and concise follow-up emails. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/index.md)
+- [Get comfortable with data](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-spreadsheets-and-data/): Use AI to explain spreadsheet formulas, clean sample data, and check analytical conclusions. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-spreadsheets-and-data/index.md)
+- [Automate one small thing well](https://lj-web-management.github.io/guides.ai-skills.work/work/automate-repetitive-work/): Choose a sensible first automation and test triggers, approvals, failures, and recovery. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/automate-repetitive-work/index.md)
+- [Turn an idea into a visual story](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/): Create clearer visual briefs, useful presentation outlines, and accessible AI-assisted images. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/index.md)
+- [Your first coding companion](https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/): Use AI to understand code, build a small project, and test changes without losing control of the work. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/index.md)
+- [Make your next application more thoughtful](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-for-job-search/): Use AI to research roles, improve a truthful CV, and practice relevant interview answers. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-for-job-search/index.md)
+
+## Careers & confidence
+
+- [Will AI affect my job?](https://lj-web-management.github.io/guides.ai-skills.work/careers/will-ai-affect-my-job/): Assess how AI could change the tasks in your role without treating uncertain forecasts as personal predictions. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/will-ai-affect-my-job/index.md)
+- [Build confidence for changing work](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/): Develop practical AI skills alongside the judgment, communication, and industry knowledge your work needs. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/index.md)
+- [Which AI skills should you learn?](https://lj-web-management.github.io/guides.ai-skills.work/careers/ai-skills-employers-value/): Read job requirements critically and prioritize transferable AI skills you can demonstrate. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/ai-skills-employers-value/index.md)
+- [A small-step, 30-day AI plan](https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/): Build a manageable month of learning around practical tasks, feedback, and a finished project. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/index.md)
+- [Make your learning visible](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-an-ai-portfolio/): Build an honest AI skills portfolio with useful projects, clear methods, and verifiable results. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-an-ai-portfolio/index.md)
+- [Help your team start well](https://lj-web-management.github.io/guides.ai-skills.work/careers/introduce-ai-to-your-team/): Plan a useful AI pilot with clear boundaries, practical training, and meaningful evaluation. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/introduce-ai-to-your-team/index.md)
+
+## AI for your role
+
+- [AI for administration](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/): Practical ways to organize documents, prepare meetings, and support follow-ups while protecting workplace information. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/index.md)
+- [AI for customer support](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/): Draft clearer replies, find relevant policies, and recognize when a customer needs a person. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/index.md)
+- [AI for marketing](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/): Support audience research, content development, and campaign review without inventing evidence or results. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/index.md)
+- [AI for sales](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/): Prepare relevant conversations and useful follow-ups using verified information and appropriate customer data controls. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/index.md)
+- [AI for finance and accounting](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-finance-and-accounting/): Use AI to support explanations, spreadsheet work, and document organization while retaining professional review. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-finance-and-accounting/index.md)
+- [AI for HR and recruitment](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-hr-and-recruitment/): Improve communications and learning materials while protecting people’s information and reviewing fairness. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-hr-and-recruitment/index.md)
+- [AI for teaching and learning](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-education/): Prepare learning activities, adapt explanations, and support practice with careful review and clear expectations. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-education/index.md)
+
+## Help & support
+
+- [Find your way around](https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/): A quick guide to searching lessons, choosing a topic, and finding a useful starting point. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/index.md)
+- [Choose your next small step](https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/): Use the learning paths and lesson exercises to build practical AI knowledge at your own pace. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/index.md)
+- [A quick guide to the quizzes](https://lj-web-management.github.io/guides.ai-skills.work/help/take-a-free-ai-quiz/): Learn how question cards, navigation, skipped questions, early submission, and retakes work. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/take-a-free-ai-quiz/index.md)
+- [What your quiz result means](https://lj-web-management.github.io/guides.ai-skills.work/help/understand-quiz-results/): Understand completion, answer accuracy, explanations, and the limits of a short knowledge quiz. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/understand-quiz-results/index.md)
+- [Need help with ai-skills.work?](https://lj-web-management.github.io/guides.ai-skills.work/help/find-ai-skills-work-help/): Understand the difference between this learning center and the main product, and prepare a useful support question. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/find-ai-skills-work-help/index.md)
+
+## Quizzes
+
+- [How well do you know AI?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/ai-basics/): 6 questions. A friendly check-in on the concepts behind the conversation.
+- [Put your prompting to the test](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/prompt-writing/): 6 questions. Choose clearer instructions and more useful follow-ups.
+- [Can you spot a shaky answer?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/fact-checking/): 6 questions. Practice checking evidence, citations, and convincing mistakes.
+- [Are your AI habits safe?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/privacy-and-safety/): 6 questions. A few everyday decisions about information, permissions, and sharing.
+- [Ready for AI at work?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/ai-at-work/): 6 questions. Test your judgment on drafts, workflows, and human review.
+- [Build your career perspective](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/career-readiness/): 6 questions. Check your understanding of AI skills and changing work. No job-risk predictions.
+
+## Machine-readable resources
+
+- [OpenAPI specification](https://lj-web-management.github.io/guides.ai-skills.work/openapi.json): Read-only static JSON endpoints.
+- [Guide catalog](https://lj-web-management.github.io/guides.ai-skills.work/api/v1/catalog.json): Full searchable public guide index.
+- [API documentation](https://lj-web-management.github.io/guides.ai-skills.work/developers/api/): Examples, schemas, and limitations.
+- [WebMCP documentation](https://lj-web-management.github.io/guides.ai-skills.work/developers/webmcp/): Experimental in-page read-only tools.
+- [Sitemap index](https://lj-web-management.github.io/guides.ai-skills.work/sitemap.xml): Canonical indexable pages.

@@ -1,0 +1,65 @@
+{
+  "slug": "ai-for-sales",
+  "category": "roles",
+  "title": "AI for sales",
+  "description": "Prepare relevant conversations and useful follow-ups using verified information and appropriate customer data controls.",
+  "sections": [
+    {
+      "title": "Research a prospect responsibly",
+      "body": "Use public and approved information to understand the organization and its likely priorities. Ask AI to organize findings and flag assumptions. Verify facts before mentioning them in outreach. Avoid inferring sensitive personal characteristics or making a message appear more personally informed than it really is.",
+      "bullets": [
+        "Check the organization’s own website and recent announcements.",
+        "Keep research relevant to the business conversation."
+      ]
+    },
+    {
+      "title": "Prepare questions and follow-ups",
+      "body": "Ask for open questions linked to the customer’s stated needs. After a conversation, draft a follow-up that preserves what was actually discussed. Review pricing, capabilities, timelines, and contractual language against approved information before sending.",
+      "bullets": [
+        "Do not invent a previous interaction.",
+        "Separate customer requests from commitments your team has made."
+      ]
+    },
+    {
+      "title": "Keep records accurate and useful",
+      "body": "Use approved systems to summarize notes and suggest next steps. Check entries before they become part of the customer record. Follow data retention and outreach rules applicable to your work. Measure whether AI improves relevance and accuracy, not just message volume.",
+      "bullets": [
+        "Record uncertainty instead of guessing missing details.",
+        "Confirm recipients and permissions before automation."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A better follow-up",
+    "text": "The customer asked whether integration is possible. Your email should promise to confirm compatibility, not claim integration is supported before the technical team checks it."
+  },
+  "exercise": "Draft five discovery questions using a fictional customer brief. Remove any question that assumes an unverified problem.",
+  "faq": [
+    {
+      "question": "Should I automate all outreach?",
+      "answer": "Consider relevance, consent, applicable rules, brand impact, and error handling before enabling automation."
+    },
+    {
+      "question": "Can AI update a CRM?",
+      "answer": "Some integrations can. Use appropriate permissions and review important facts before relying on the record."
+    }
+  ],
+  "sourceKeys": [
+    "privacy",
+    "nist"
+  ],
+  "level": "Role guide",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "ICO: Artificial intelligence and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/index.md"
+}

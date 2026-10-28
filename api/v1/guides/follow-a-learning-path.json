@@ -1,0 +1,53 @@
+{
+  "slug": "follow-a-learning-path",
+  "category": "help",
+  "title": "Choose your next small step",
+  "description": "Use the learning paths and lesson exercises to build practical AI knowledge at your own pace.",
+  "sections": [
+    {
+      "title": "Start with your immediate goal",
+      "body": "Choose foundations if the concepts feel unfamiliar, practical skills if you have a task in mind, or career guidance if you are deciding what to learn next. The homepage highlights a short beginner route. These paths are suggestions, not entry requirements or qualifications.",
+      "bullets": [
+        "Read the summary before opening a longer guide.",
+        "Skip familiar material and return when you need it."
+      ]
+    },
+    {
+      "title": "Practice before moving on",
+      "body": "Each guide includes a worked example and a small exercise. Use public or invented information and check the result yourself. If an exercise feels difficult, return to the relevant section or try a simpler example. Understanding one task well is more useful than rushing through several pages.",
+      "bullets": [
+        "Write down one thing you learned.",
+        "Keep a note of a question that still needs an answer."
+      ]
+    },
+    {
+      "title": "Check understanding and revisit gaps",
+      "body": "Quizzes provide feedback on selected concepts. They are learning tools, not certifications or employment assessments. Review the explanations, return to the linked lessons, and try a new example. Your browser bookmarks can help you keep track of pages you want to revisit.",
+      "bullets": [
+        "Retake a quiz after reviewing its explanations.",
+        "Use real-world practice to complement quiz results."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A practical route",
+    "text": "For a workplace goal, read the privacy guide, learn the prompt structure, and choose a task-specific guide. Complete its exercise before exploring automation."
+  },
+  "exercise": "Pick one learning outcome for this week and bookmark two relevant lessons.",
+  "faq": [
+    {
+      "question": "Is there a required order?",
+      "answer": "No. The beginner route is a suggestion. You can choose lessons based on your interests and current knowledge."
+    },
+    {
+      "question": "Will completing a path give me a certificate?",
+      "answer": "This learning center does not issue a certificate. It provides free lessons, exercises, and knowledge checks."
+    }
+  ],
+  "sourceKeys": [],
+  "level": "Getting started",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/",
+  "updated": "2026-10-28",
+  "sources": [],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/index.md"
+}

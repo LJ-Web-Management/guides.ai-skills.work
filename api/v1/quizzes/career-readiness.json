@@ -1,0 +1,70 @@
+{
+  "slug": "career-readiness",
+  "title": "Build your career perspective",
+  "description": "Check your understanding of AI skills and changing work. No job-risk predictions.",
+  "color": "mint",
+  "icon": "compass",
+  "guideSlug": "will-ai-affect-my-job",
+  "questions": [
+    {
+      "question": "What does a study of AI task exposure usually describe?",
+      "options": [
+        "A guaranteed redundancy date",
+        "Potential effects on tasks under stated assumptions",
+        "Your personal employment contract"
+      ],
+      "correct": 1,
+      "explanation": "Exposure research estimates potential task effects. It does not directly predict an individual employment outcome."
+    },
+    {
+      "question": "What is a useful way to assess your role?",
+      "options": [
+        "Look only at the job title",
+        "Assume all tasks change equally",
+        "Break the role into tasks and responsibilities"
+      ],
+      "correct": 2,
+      "explanation": "Task-level analysis makes assistance opportunities and human responsibilities easier to understand."
+    },
+    {
+      "question": "Which portfolio claim is most credible?",
+      "options": [
+        "AI expert at everything",
+        "A documented project with inputs, checks, results, and limits",
+        "Guaranteed 100% improvement with no measurement"
+      ],
+      "correct": 1,
+      "explanation": "Clear evidence and honest limitations are more informative than broad unsupported claims."
+    },
+    {
+      "question": "Which learning priority is usually more transferable?",
+      "options": [
+        "Memorizing one product’s button locations",
+        "Learning task selection, evidence checking, and data boundaries",
+        "Collecting tool names without practice"
+      ],
+      "correct": 1,
+      "explanation": "Transferable methods remain useful as products and interfaces change."
+    },
+    {
+      "question": "Can this quiz predict whether you will lose your job?",
+      "options": [
+        "No, it samples knowledge and cannot predict employment",
+        "Yes, if you answer every question",
+        "Yes, because it includes a score"
+      ],
+      "correct": 0,
+      "explanation": "Job outcomes depend on many contextual factors. This quiz does not assess or predict personal job security."
+    },
+    {
+      "question": "What is a useful next step after noticing a skill gap?",
+      "options": [
+        "Ignore it until a role changes",
+        "Buy every available course",
+        "Choose a relevant small project and get feedback"
+      ],
+      "correct": 2,
+      "explanation": "A focused project with feedback helps turn a learning need into observable practice."
+    }
+  ]
+}

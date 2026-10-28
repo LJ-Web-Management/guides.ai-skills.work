@@ -1,0 +1,46 @@
+# Need help with ai-skills.work?
+
+Understand the difference between this learning center and the main product, and prepare a useful support question.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/help/find-ai-skills-work-help/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Find the right place for your question
+
+This learning center contains public lessons and free knowledge quizzes. The main ai-skills.work website is a separate destination. Use the main-site link in the navigation for its current product features and available support channels. Learning center guidance should not be assumed to describe account, billing, or feature behavior on the main product.
+
+- For lesson navigation or quiz behavior, use this help collection.
+- For product-specific details, consult the main website’s current information.
+
+## Describe what happened clearly
+
+Record the page, the action you took, what you expected, and what actually happened. Include your browser and device type if relevant. A screenshot can help, but remove personal details, account information, and credentials before sharing it through an appropriate support channel.
+
+- Include an exact error message without sensitive information.
+- Mention whether the issue happens consistently.
+
+## Protect your information while troubleshooting
+
+Never share passwords, one-time codes, secret tokens, or payment details in a support description. Use the service’s official secure route when account verification is required. For a learning center issue, refreshing the page resets the current quiz attempt, so finish or note your results first if you want to keep them.
+
+- Confirm that a support link belongs to the intended service.
+- Do not grant remote access in response to an unsolicited message.
+
+## In practice: A useful problem report
+
+On the AI basics quiz, using a mobile browser, I selected an answer and tapped Next. I expected the second question but remained on the first card. No error was displayed. This gives a maintainer a concrete behavior to investigate.
+
+## Try it yourself
+
+Write a three-sentence issue description using only fictional details: location, steps, and expected versus actual behavior.
+
+## Common questions
+
+### Are the main site and this learning center the same application?
+
+They are linked destinations. This learning center provides public educational content and quizzes; consult the main site for its product features.
+
+### Where are account and billing instructions?
+
+Use the main website’s verified support information. This guide does not invent account or billing workflows that have not been confirmed.

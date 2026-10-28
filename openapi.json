@@ -1,0 +1,450 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "AI Skills Field Guide Public Content API",
+    "version": "1.0.0",
+    "description": "Read-only static JSON resources for public learning content. No authentication, write operations, server-side search, quiz scoring, or personal data. Quiz answer keys are public educational material. Query parameters do not filter static endpoints; filter the catalog in your client."
+  },
+  "servers": [
+    {
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work"
+    }
+  ],
+  "paths": {
+    "/api/v1/site.json": {
+      "get": {
+        "operationId": "getSite",
+        "summary": "Read site metadata and discovery links",
+        "responses": {
+          "200": {
+            "description": "Site metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/catalog.json": {
+      "get": {
+        "operationId": "listGuides",
+        "summary": "Read all guide metadata and searchable text",
+        "responses": {
+          "200": {
+            "description": "Guide catalog",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "version",
+                    "updated",
+                    "guides"
+                  ],
+                  "properties": {
+                    "version": {
+                      "type": "string"
+                    },
+                    "updated": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "guides": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/GuideSummary"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/guides/{slug}.json": {
+      "get": {
+        "operationId": "getGuide",
+        "summary": "Read a complete guide",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "An exact slug from the corresponding catalog.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Public guide",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Guide"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown resource. Static hosts may return an HTML 404 page."
+          }
+        }
+      }
+    },
+    "/api/v1/quizzes.json": {
+      "get": {
+        "operationId": "listQuizzes",
+        "summary": "Read quiz metadata",
+        "responses": {
+          "200": {
+            "description": "Quiz catalog",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "version",
+                    "quizzes"
+                  ],
+                  "properties": {
+                    "version": {
+                      "type": "string"
+                    },
+                    "quizzes": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/QuizSummary"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/quizzes/{slug}.json": {
+      "get": {
+        "operationId": "getQuiz",
+        "summary": "Read public quiz questions, answer keys, and explanations",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "An exact slug from the corresponding catalog.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Public quiz",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quiz"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown resource. Static hosts may return an HTML 404 page."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GuideSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "category",
+          "title",
+          "description",
+          "path",
+          "url",
+          "text",
+          "minutes"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "learn",
+              "work",
+              "careers",
+              "roles",
+              "help"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "text": {
+            "type": "string"
+          },
+          "minutes": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      },
+      "Source": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Guide": {
+        "type": "object",
+        "required": [
+          "slug",
+          "category",
+          "title",
+          "description",
+          "sections",
+          "example",
+          "exercise",
+          "faq",
+          "sources",
+          "url",
+          "updated",
+          "markdown"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "markdown": {
+            "type": "string",
+            "format": "uri"
+          },
+          "updated": {
+            "type": "string",
+            "format": "date"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "body",
+                "bullets"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "bullets": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "example": {
+            "type": "object",
+            "required": [
+              "title",
+              "text"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          },
+          "exercise": {
+            "type": "string"
+          },
+          "faq": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "question",
+                "answer"
+              ],
+              "properties": {
+                "question": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "sourceKeys": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Source"
+            }
+          }
+        }
+      },
+      "QuizSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "description",
+          "questionCount",
+          "url"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "questionCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Question": {
+        "type": "object",
+        "required": [
+          "question",
+          "options",
+          "correct",
+          "explanation"
+        ],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "correct": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Zero-based index into options."
+          },
+          "explanation": {
+            "type": "string"
+          }
+        }
+      },
+      "Quiz": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "description",
+          "questions"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "guideSlug": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Question"
+            }
+          }
+        }
+      }
+    }
+  }
+}

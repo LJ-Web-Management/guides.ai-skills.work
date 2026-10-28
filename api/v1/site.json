@@ -1,0 +1,11 @@
+{
+  "name": "The AI Skills Field Guide",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work",
+  "updated": "2026-10-28",
+  "guideCount": 34,
+  "quizCount": 6,
+  "openapi": "https://lj-web-management.github.io/guides.ai-skills.work/openapi.json",
+  "llms": "https://lj-web-management.github.io/guides.ai-skills.work/llms.txt",
+  "sitemap": "https://lj-web-management.github.io/guides.ai-skills.work/sitemap.xml",
+  "webmcp": "https://lj-web-management.github.io/guides.ai-skills.work/developers/webmcp/"
+}

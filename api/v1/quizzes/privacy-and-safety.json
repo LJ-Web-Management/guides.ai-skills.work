@@ -1,0 +1,70 @@
+{
+  "slug": "privacy-and-safety",
+  "title": "Are your AI habits safe?",
+  "description": "A few everyday decisions about information, permissions, and sharing.",
+  "color": "blue",
+  "icon": "shield",
+  "guideSlug": "ai-privacy-and-safety",
+  "questions": [
+    {
+      "question": "Which information should never be pasted into an ordinary AI prompt?",
+      "options": [
+        "A public article title",
+        "A fictional meeting note",
+        "A private access token"
+      ],
+      "correct": 2,
+      "explanation": "Access tokens and passwords are credentials. Keep them out of prompts, logs, and shared documents."
+    },
+    {
+      "question": "Is removing names always enough to anonymize a document?",
+      "options": [
+        "Yes, names are the only identifiers",
+        "No, other details can still identify someone",
+        "Yes, if it is a spreadsheet"
+      ],
+      "correct": 1,
+      "explanation": "Dates, locations, roles, and combinations of details can still identify people."
+    },
+    {
+      "question": "What should you check before uploading workplace data?",
+      "options": [
+        "Whether the tool has a bright logo",
+        "Only whether the tool is free",
+        "Organizational approval, data requirements, and the product’s controls"
+      ],
+      "correct": 2,
+      "explanation": "Approval and suitable data controls matter regardless of price or popularity."
+    },
+    {
+      "question": "A shared AI conversation link may expose what?",
+      "options": [
+        "The information included in the shared conversation",
+        "Nothing, because it is an AI product",
+        "Only the title, in every product"
+      ],
+      "correct": 0,
+      "explanation": "Sharing behavior varies. Review exactly what a link exposes and who can access it."
+    },
+    {
+      "question": "You accidentally share a credential. What is the better response?",
+      "options": [
+        "Delete the chat and assume the problem is solved",
+        "Follow the incident process and rotate the credential",
+        "Wait for the next password reminder"
+      ],
+      "correct": 1,
+      "explanation": "A credential may remain compromised after a message is deleted. Follow the relevant response process and replace it."
+    },
+    {
+      "question": "What is a safer way to learn a customer-data workflow?",
+      "options": [
+        "Upload the largest real dataset first",
+        "Use fictional records in a small test",
+        "Post the records publicly for feedback"
+      ],
+      "correct": 1,
+      "explanation": "Synthetic records let you test the process without exposing real customer information."
+    }
+  ]
+}

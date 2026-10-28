@@ -1,0 +1,70 @@
+{
+  "slug": "ai-basics",
+  "title": "How well do you know AI?",
+  "description": "A friendly check-in on the concepts behind the conversation.",
+  "color": "lilac",
+  "icon": "spark",
+  "guideSlug": "what-is-ai",
+  "questions": [
+    {
+      "question": "Which task is an example of generative AI?",
+      "options": [
+        "Creating a draft email from instructions",
+        "Sorting rows alphabetically with a fixed rule",
+        "Setting a calendar reminder manually"
+      ],
+      "correct": 0,
+      "explanation": "Generative AI produces new content, such as text, images, or code, based on patterns and the input it receives."
+    },
+    {
+      "question": "An AI answer sounds very confident. What does that tell you?",
+      "options": [
+        "It has been checked by an expert",
+        "The wording is confident, but the facts still need checking",
+        "It must have searched the web"
+      ],
+      "correct": 1,
+      "explanation": "Fluent and confident language does not establish that an answer is accurate, reviewed, or based on a web search."
+    },
+    {
+      "question": "What is machine learning?",
+      "options": [
+        "A method where systems learn patterns from examples",
+        "Any computer with an internet connection",
+        "A promise that software never makes mistakes"
+      ],
+      "correct": 0,
+      "explanation": "Machine learning uses examples to learn patterns rather than relying only on explicitly written rules."
+    },
+    {
+      "question": "What is a sensible first AI task?",
+      "options": [
+        "Upload every customer record to a new tool",
+        "Let an agent approve payments",
+        "Summarize a public article you can check yourself"
+      ],
+      "correct": 2,
+      "explanation": "A low-stakes task with public material lets you learn while keeping the result easy to verify."
+    },
+    {
+      "question": "Who is responsible for checking AI-assisted work before using it?",
+      "options": [
+        "The AI alone",
+        "Nobody if the tool is paid",
+        "The person or organization using the output"
+      ],
+      "correct": 2,
+      "explanation": "People and organizations remain responsible for the decisions and work they rely on."
+    },
+    {
+      "question": "Can a short AI quiz establish professional competence?",
+      "options": [
+        "Yes, if every answer is correct",
+        "No, it only samples selected knowledge",
+        "Yes, if it has a percentage score"
+      ],
+      "correct": 1,
+      "explanation": "A short quiz provides limited feedback. Competence also requires context, practice, and appropriate evaluation."
+    }
+  ]
+}

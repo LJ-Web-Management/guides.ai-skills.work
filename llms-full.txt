@@ -1,0 +1,1921 @@
+# The AI Skills Field Guide
+
+> Practical AI lessons, honest career guidance, and free knowledge quizzes. Build useful AI skills, one small step at a time.
+
+Public educational content from ai-skills.work. Quizzes are informal knowledge checks, not credentials, employment assessments, or job-security predictions. Dates identify the content version; consult original sources for current requirements.
+
+## Start here
+
+- [Home](https://lj-web-management.github.io/guides.ai-skills.work/): Learning paths, guides, and free quizzes.
+- [Full text](https://lj-web-management.github.io/guides.ai-skills.work/llms-full.txt): Complete guide content in one text resource.
+- [Editorial approach](https://lj-web-management.github.io/guides.ai-skills.work/about/): Scope, evidence, and limitations.
+
+## Learn AI
+
+- [AI, without the overwhelm](https://lj-web-management.github.io/guides.ai-skills.work/learn/what-is-ai/): Understand what artificial intelligence is, how generative AI works, and where human judgment still matters. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/what-is-ai/index.md)
+- [Your first steps into AI](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/): A practical beginner roadmap for learning AI without a technical background or expensive course. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/index.md)
+- [Find the right tool for the job](https://lj-web-management.github.io/guides.ai-skills.work/learn/choose-an-ai-tool/): Choose an AI assistant by task, privacy, evidence, and cost rather than popularity. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/choose-an-ai-tool/index.md)
+- [Better prompts. More useful answers.](https://lj-web-management.github.io/guides.ai-skills.work/learn/write-better-ai-prompts/): Learn a reusable prompt structure with clear goals, relevant context, constraints, and examples. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/write-better-ai-prompts/index.md)
+- [Trust the evidence, check the answer](https://lj-web-management.github.io/guides.ai-skills.work/learn/fact-check-ai-answers/): Spot AI hallucinations and verify citations, calculations, and important claims. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/fact-check-ai-answers/index.md)
+- [Keep your information yours](https://lj-web-management.github.io/guides.ai-skills.work/learn/ai-privacy-and-safety/): Understand what to avoid uploading and how to use AI with sensible privacy boundaries. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/ai-privacy-and-safety/index.md)
+- [What makes an AI agent different?](https://lj-web-management.github.io/guides.ai-skills.work/learn/understand-ai-agents/): Understand AI agents, tool access, permissions, and the importance of review checkpoints. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/understand-ai-agents/index.md)
+- [Use AI to become a better learner](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-with-ai/): Create explanations, practice questions, and study routines while developing your own understanding. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-with-ai/index.md)
+
+## AI at work
+
+- [Research with a sharper starting point](https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/): Use AI to organize a research question, find evidence, and produce a source-backed summary. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/index.md)
+- [Write faster. Still sound like you.](https://lj-web-management.github.io/guides.ai-skills.work/work/write-and-edit-with-ai/): Draft and edit useful writing with AI while preserving accuracy, intention, and your own voice. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/write-and-edit-with-ai/index.md)
+- [Make meetings lead somewhere](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/): Turn approved meeting notes into useful summaries, action items, and concise follow-up emails. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/index.md)
+- [Get comfortable with data](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-spreadsheets-and-data/): Use AI to explain spreadsheet formulas, clean sample data, and check analytical conclusions. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-spreadsheets-and-data/index.md)
+- [Automate one small thing well](https://lj-web-management.github.io/guides.ai-skills.work/work/automate-repetitive-work/): Choose a sensible first automation and test triggers, approvals, failures, and recovery. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/automate-repetitive-work/index.md)
+- [Turn an idea into a visual story](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/): Create clearer visual briefs, useful presentation outlines, and accessible AI-assisted images. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/index.md)
+- [Your first coding companion](https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/): Use AI to understand code, build a small project, and test changes without losing control of the work. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/index.md)
+- [Make your next application more thoughtful](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-for-job-search/): Use AI to research roles, improve a truthful CV, and practice relevant interview answers. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/work/ai-for-job-search/index.md)
+
+## Careers & confidence
+
+- [Will AI affect my job?](https://lj-web-management.github.io/guides.ai-skills.work/careers/will-ai-affect-my-job/): Assess how AI could change the tasks in your role without treating uncertain forecasts as personal predictions. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/will-ai-affect-my-job/index.md)
+- [Build confidence for changing work](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/): Develop practical AI skills alongside the judgment, communication, and industry knowledge your work needs. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/index.md)
+- [Which AI skills should you learn?](https://lj-web-management.github.io/guides.ai-skills.work/careers/ai-skills-employers-value/): Read job requirements critically and prioritize transferable AI skills you can demonstrate. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/ai-skills-employers-value/index.md)
+- [A small-step, 30-day AI plan](https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/): Build a manageable month of learning around practical tasks, feedback, and a finished project. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/index.md)
+- [Make your learning visible](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-an-ai-portfolio/): Build an honest AI skills portfolio with useful projects, clear methods, and verifiable results. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/build-an-ai-portfolio/index.md)
+- [Help your team start well](https://lj-web-management.github.io/guides.ai-skills.work/careers/introduce-ai-to-your-team/): Plan a useful AI pilot with clear boundaries, practical training, and meaningful evaluation. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/careers/introduce-ai-to-your-team/index.md)
+
+## AI for your role
+
+- [AI for administration](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/): Practical ways to organize documents, prepare meetings, and support follow-ups while protecting workplace information. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/index.md)
+- [AI for customer support](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/): Draft clearer replies, find relevant policies, and recognize when a customer needs a person. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/index.md)
+- [AI for marketing](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/): Support audience research, content development, and campaign review without inventing evidence or results. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/index.md)
+- [AI for sales](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/): Prepare relevant conversations and useful follow-ups using verified information and appropriate customer data controls. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/index.md)
+- [AI for finance and accounting](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-finance-and-accounting/): Use AI to support explanations, spreadsheet work, and document organization while retaining professional review. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-finance-and-accounting/index.md)
+- [AI for HR and recruitment](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-hr-and-recruitment/): Improve communications and learning materials while protecting people’s information and reviewing fairness. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-hr-and-recruitment/index.md)
+- [AI for teaching and learning](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-education/): Prepare learning activities, adapt explanations, and support practice with careful review and clear expectations. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-education/index.md)
+
+## Help & support
+
+- [Find your way around](https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/): A quick guide to searching lessons, choosing a topic, and finding a useful starting point. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/index.md)
+- [Choose your next small step](https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/): Use the learning paths and lesson exercises to build practical AI knowledge at your own pace. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/index.md)
+- [A quick guide to the quizzes](https://lj-web-management.github.io/guides.ai-skills.work/help/take-a-free-ai-quiz/): Learn how question cards, navigation, skipped questions, early submission, and retakes work. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/take-a-free-ai-quiz/index.md)
+- [What your quiz result means](https://lj-web-management.github.io/guides.ai-skills.work/help/understand-quiz-results/): Understand completion, answer accuracy, explanations, and the limits of a short knowledge quiz. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/understand-quiz-results/index.md)
+- [Need help with ai-skills.work?](https://lj-web-management.github.io/guides.ai-skills.work/help/find-ai-skills-work-help/): Understand the difference between this learning center and the main product, and prepare a useful support question. [Markdown](https://lj-web-management.github.io/guides.ai-skills.work/help/find-ai-skills-work-help/index.md)
+
+## Quizzes
+
+- [How well do you know AI?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/ai-basics/): 6 questions. A friendly check-in on the concepts behind the conversation.
+- [Put your prompting to the test](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/prompt-writing/): 6 questions. Choose clearer instructions and more useful follow-ups.
+- [Can you spot a shaky answer?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/fact-checking/): 6 questions. Practice checking evidence, citations, and convincing mistakes.
+- [Are your AI habits safe?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/privacy-and-safety/): 6 questions. A few everyday decisions about information, permissions, and sharing.
+- [Ready for AI at work?](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/ai-at-work/): 6 questions. Test your judgment on drafts, workflows, and human review.
+- [Build your career perspective](https://lj-web-management.github.io/guides.ai-skills.work/quizzes/career-readiness/): 6 questions. Check your understanding of AI skills and changing work. No job-risk predictions.
+
+## Machine-readable resources
+
+- [OpenAPI specification](https://lj-web-management.github.io/guides.ai-skills.work/openapi.json): Read-only static JSON endpoints.
+- [Guide catalog](https://lj-web-management.github.io/guides.ai-skills.work/api/v1/catalog.json): Full searchable public guide index.
+- [API documentation](https://lj-web-management.github.io/guides.ai-skills.work/developers/api/): Examples, schemas, and limitations.
+- [WebMCP documentation](https://lj-web-management.github.io/guides.ai-skills.work/developers/webmcp/): Experimental in-page read-only tools.
+- [Sitemap index](https://lj-web-management.github.io/guides.ai-skills.work/sitemap.xml): Canonical indexable pages.
+
+
+# Complete guides
+
+# AI, without the overwhelm
+
+Understand what artificial intelligence is, how generative AI works, and where human judgment still matters.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/what-is-ai/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## What AI actually means
+
+Artificial intelligence is a broad term for computer systems that perform tasks associated with human abilities, such as recognizing speech, identifying patterns, or generating text. Machine learning is one way to build these systems: the system learns patterns from examples instead of relying only on hand-written rules. A useful starting question is what a particular system does, rather than whether it is intelligent.
+
+- Predictive AI estimates an outcome, such as likely demand.
+- Generative AI produces new text, images, audio, or code from learned patterns.
+
+## How a chatbot produces an answer
+
+A language model uses the conversation and patterns learned during training to generate a likely continuation. Depending on the product, it may also search the web, retrieve documents, or use tools. A fluent answer does not establish that any of those checks happened. Ask what evidence supports an answer and inspect the original source when accuracy matters.
+
+- Training information can be incomplete or outdated.
+- The same question can produce different answers.
+
+## Where people still matter
+
+AI can help you draft, organize, compare, and explore. It cannot take responsibility for your decisions. You provide the goal, context, and standard of quality. You also decide whether an output fits the real situation. For consequential work, a person with the relevant expertise should check the result before anyone acts on it.
+
+- Check facts against original sources.
+- Treat confidence in the wording separately from confidence in the evidence.
+
+## In practice: A useful first task
+
+Give an assistant a fictional meeting note and ask it to extract decisions and next steps. Compare each item with the note. You are testing a specific ability with information you can verify.
+
+## Try it yourself
+
+Write down three tasks you do regularly. For each, decide whether AI could draft, organize, explain, or check something. Pick one low-stakes task to try.
+
+## Common questions
+
+### Is AI the same as a chatbot?
+
+No. Chatbots are one interface for some AI systems. Recommendation systems, image recognition, and forecasting tools are also examples of AI.
+
+### Can AI understand everything it says?
+
+Useful language output does not establish human-like understanding. Evaluate whether a system performs your task reliably.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Your first steps into AI
+
+A practical beginner roadmap for learning AI without a technical background or expensive course.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Start with a task you understand
+
+You do not need to learn every model, acronym, or app. Choose a familiar task, such as summarizing a public article or drafting a personal study plan. Familiarity lets you notice errors. Use invented or public information while you learn, and check that your chosen tool is approved before using it for work.
+
+- Start with one tool and one small task.
+- Keep the original information beside the answer.
+
+## Learn through a simple practice loop
+
+Give the tool a clear instruction, inspect the response, and change one thing in the instruction. Notice what improved and what did not. Keep a small record of the task, prompt, result, and correction. Learning this loop builds a transferable skill even when specific products change.
+
+- Compare a vague prompt with a specific prompt.
+- Ask for an explanation of an unfamiliar term, then explain it in your own words.
+
+## Build a manageable learning routine
+
+Spend your first few sessions understanding limitations, privacy, and prompting. Next, complete one realistic project. Finally, explain your process to someone else. Progress means you can select a suitable task, recognize a weak result, and improve it. Finishing a course is useful, but it is not the only evidence that you can work well with AI.
+
+- Practice for a short, repeatable period.
+- Measure the quality of the work, not the number of tools you tried.
+
+## In practice: A first-week plan
+
+Day 1: understand the basics. Day 2: practice a clear prompt. Day 3: verify an answer. Day 4: review privacy. Day 5: complete a small task and record what you learned. Repeat anything that still feels unclear.
+
+## Try it yourself
+
+Choose one public article. Ask for a five-point summary, verify every point, and rewrite the weakest point yourself.
+
+## Common questions
+
+### Can I learn AI without coding?
+
+Yes. Using AI responsibly, writing clear prompts, checking outputs, and improving workflows do not require programming. Building AI software may require additional technical skills.
+
+### How long does it take to learn AI?
+
+You can practice basic tasks in a few sessions. Reliable use in a profession takes continuing practice, feedback, and relevant subject knowledge.
+
+## Sources and further reading
+
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Find the right tool for the job
+
+Choose an AI assistant by task, privacy, evidence, and cost rather than popularity.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/choose-an-ai-tool/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Define what a good result looks like
+
+Describe the task before shopping for a tool. Do you need a source-backed research summary, a spreadsheet explanation, an image, or help drafting code? List the inputs, expected output, and acceptable error level. A tool that produces a polished paragraph may be a poor fit for a task that needs traceable calculations.
+
+- Separate essential features from conveniences.
+- Check file formats, accessibility, and export options.
+
+## Compare with the same realistic examples
+
+Try two or three tools on the same non-sensitive task. Check accuracy, ease of correction, and whether the tool shows usable sources. Test a difficult example as well as an easy one. Read the current product documentation because features, limits, and prices change. A free tier can be sufficient for learning, but its limits may differ from a paid plan.
+
+- Score results using your own quality checklist.
+- Include the time spent correcting the output.
+
+## Review privacy and ongoing costs
+
+Check whether your organization permits the product, what happens to uploaded information, and which settings control retention or training use. Do not assume a paid account automatically meets your obligations. Consider subscriptions, usage-based charges, limits, and the effort required to move your work elsewhere.
+
+- Use approved accounts for workplace information.
+- Set a small budget and review actual usage before expanding.
+
+## In practice: A fair comparison
+
+Ask two assistants to summarize the same public policy into five bullets. Check coverage, factual accuracy, source traceability, and editing time. The most confident answer does not automatically win.
+
+## Try it yourself
+
+Make a checklist with five requirements for one real task. Test one approved tool against it using public or fictional information.
+
+## Common questions
+
+### Do I need a paid AI tool?
+
+Not necessarily. Start with a free option that meets your task and privacy requirements. Upgrade when a specific limitation makes the cost worthwhile.
+
+### Which AI tool is best?
+
+There is no universal best tool. Suitability depends on the task, current features, privacy requirements, and your ability to verify the output.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+
+
+***
+
+# Better prompts. More useful answers.
+
+Learn a reusable prompt structure with clear goals, relevant context, constraints, and examples.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/write-better-ai-prompts/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Give the task a clear destination
+
+Say what you want the assistant to produce and who will use it. Include the information it needs and the format you expect. Replace broad instructions such as make this better with an observable goal, such as shorten this email to 120 words while keeping the deadline and action items. Clear instructions make the result easier to assess.
+
+- Goal: the job you want completed.
+- Context: the audience, inputs, and relevant situation.
+
+## Set boundaries and show an example
+
+Specify constraints such as length, tone, source material, and information the assistant must not invent. If the output needs a particular structure, provide a short example. Ask the assistant to flag missing information rather than fill gaps with guesses. A role description can help set perspective, but it does not create actual professional expertise.
+
+- Format: the structure of the output.
+- Boundaries: facts to preserve, exclusions, and uncertainty to surface.
+
+## Improve the result with specific feedback
+
+Read the first answer before requesting more. Identify one concrete problem and ask for a targeted change. For complicated tasks, request an outline or sample before the full output. Keep useful prompts as starting points, but adapt them when the audience, evidence, or task changes.
+
+- Ask for alternatives when the tradeoff is unclear.
+- Verify the final result even if the prompt was detailed.
+
+## In practice: A reusable prompt
+
+Using only the meeting notes below, write a follow-up email for the project team. Include decisions, owners, and deadlines in three sections. Keep it under 180 words. Mark missing owners or dates as unconfirmed. Do not invent commitments.
+
+## Try it yourself
+
+Rewrite one vague prompt with a goal, audience, input, format, and two constraints. Compare the two results against the same checklist.
+
+## Common questions
+
+### Does a longer prompt always work better?
+
+No. Relevant information and clear requirements matter more than length. Extra instructions can distract or conflict.
+
+### Can a prompt prevent all mistakes?
+
+No. A good prompt improves direction, but output still needs verification appropriate to the task.
+
+## Sources and further reading
+
+- [OpenAI: Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Trust the evidence, check the answer
+
+Spot AI hallucinations and verify citations, calculations, and important claims.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/fact-check-ai-answers/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Recognize what needs checking
+
+An AI hallucination is a generated statement presented as fact that is unsupported or incorrect. It may be a fabricated citation, a wrong date, or a plausible explanation built on a false assumption. Detailed wording and confident tone are not evidence. Mark names, numbers, quotations, legal claims, and current information for verification.
+
+- Separate facts from suggestions and opinions.
+- Prioritize errors that could change a decision.
+
+## Go back to the original source
+
+Open each important reference and check whether it exists, supports the exact claim, and applies to the right date and context. Prefer primary sources such as official documentation, original research, and the organization responsible for a policy. Asking another chatbot can generate another opinion, but it does not replace checking evidence.
+
+- Read beyond a search snippet or summary.
+- Check whether a source describes correlation, a forecast, or a demonstrated result.
+
+## Verify numbers and document uncertainty
+
+Recalculate important totals with a calculator or spreadsheet. Check units, time periods, and assumptions. If a source is missing or conflicting, mark the claim as uncertain instead of presenting it as settled. In consequential areas, pass the work to a qualified reviewer. Your review effort should match the impact of being wrong.
+
+- Check that percentages use the correct denominator.
+- Keep a short note of the source and what you verified.
+
+## In practice: A convincing mistake
+
+An assistant says a training budget fell by 25%, from 100 to 80. The figures may be correct, but the reduction is 20%. Recalculating catches an error that fluent wording can hide.
+
+## Try it yourself
+
+Take a generated answer and highlight three checkable claims. Find an original source for each and label it supported, unsupported, or uncertain.
+
+## Common questions
+
+### Are AI citations always real?
+
+No. A citation can be fabricated, misquoted, outdated, or unrelated. Open it and check the specific claim.
+
+### Is an answer with web search automatically accurate?
+
+No. Search can provide useful evidence, but a tool can still select poor sources or misinterpret them.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OWASP: Top risks for generative AI applications](https://genai.owasp.org/llm-top-10/)
+
+
+***
+
+# Keep your information yours
+
+Understand what to avoid uploading and how to use AI with sensible privacy boundaries.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/ai-privacy-and-safety/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Recognize sensitive information
+
+Personal details, customer records, internal plans, passwords, and unpublished business information require care. Sensitivity depends on the context, not just the file name. A spreadsheet without names can still identify someone through other details. Before using a tool, check your organization’s policy and any obligations that apply to the information.
+
+- Never paste passwords, access tokens, or private keys.
+- Use fictional examples when learning a workflow.
+
+## Understand what the product does with data
+
+Review the current terms, retention settings, sharing controls, and available account protections. Check whether uploads or conversations may be used to improve models and whether your account type changes that treatment. Do not assume every product has the same settings. If something is unclear, ask the responsible person before uploading workplace data.
+
+- Check shared links and workspace membership.
+- Use approved accounts and the minimum information required.
+
+## Reduce exposure before you begin
+
+Replace identifying information with synthetic examples whenever possible. Redaction requires more than removing a name: check hidden tabs, document comments, metadata, and combinations of identifying details. If you accidentally share a credential, follow your organization’s incident process and rotate it. Deleting a conversation alone may not resolve the exposure.
+
+- Keep a local original and use a separate sanitized copy.
+- Treat retrieved web pages and documents as untrusted input.
+
+## In practice: A safer way to practice
+
+Instead of uploading a real customer list, create five fictional customers with invented order amounts. Test the workflow on that sample, then ask the responsible team which approved system can handle the real records.
+
+## Try it yourself
+
+Choose a document type you use regularly. Write a checklist of information that would need removal or permission before using it with an AI tool.
+
+## Common questions
+
+### Does a paid plan guarantee privacy?
+
+No. Review the specific product, account terms, settings, and your organization’s requirements.
+
+### Are these quizzes sent to an AI model?
+
+No. These quizzes calculate results in your browser. This site does not send your answers to an AI service.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [OWASP: Top risks for generative AI applications](https://genai.owasp.org/llm-top-10/)
+
+
+***
+
+# What makes an AI agent different?
+
+Understand AI agents, tool access, permissions, and the importance of review checkpoints.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/understand-ai-agents/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## From answering to taking actions
+
+A chatbot usually responds to a conversation. An agent can use tools and take several steps toward a goal, such as finding a document and preparing an update. Products use the word agent in different ways, so inspect the actual capabilities. A workflow with fixed rules may be ordinary automation even when an AI model handles one step.
+
+- Ask which tools the system can use.
+- Find out whether it can read, create, change, send, or delete information.
+
+## Keep permissions proportional to the task
+
+Give an agent only the access needed for its job. Reading a public page is different from sending an email or changing a customer record. Set review checkpoints before actions that create commitments, expose information, or are hard to undo. Keep a record of what the agent did so you can investigate mistakes.
+
+- Start with read-only access and a small scope.
+- Require confirmation for consequential external actions.
+
+## Test failures before relying on the workflow
+
+Agents can misread instructions, use a tool incorrectly, or follow malicious instructions hidden in retrieved content. Test missing files, conflicting information, unexpected responses, and permission errors. Decide how the workflow should stop and alert a person. A successful demonstration is a starting point, not evidence that every situation is handled.
+
+- Use a test environment and synthetic data.
+- Check time limits, spending limits, and recovery steps.
+
+## In practice: A sensible review checkpoint
+
+An assistant may prepare a draft reply from an approved policy. A person checks the facts and recipient before sending. The task benefits from automation while the external commitment remains visible.
+
+## Try it yourself
+
+Sketch a three-step agent workflow. Mark the information it reads, the actions it can take, and where a person should review the result.
+
+## Common questions
+
+### Are agents fully autonomous?
+
+Some can operate for multiple steps, but autonomy depends on the product and configuration. Important actions still need suitable controls and accountability.
+
+### Is WebMCP an AI agent?
+
+No. WebMCP is an evolving browser interface that lets a website expose defined tools to compatible agents.
+
+## Sources and further reading
+
+- [OWASP: Top risks for generative AI applications](https://genai.owasp.org/llm-top-10/)
+- [WebMCP proposal and implementation guidance](https://github.com/webmachinelearning/webmcp)
+
+
+***
+
+# Use AI to become a better learner
+
+Create explanations, practice questions, and study routines while developing your own understanding.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-with-ai/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Ask for an explanation you can test
+
+Tell the assistant your current level and ask it to explain a concept using a concrete example. Ask which parts of the explanation are simplified. Then check the idea against a trusted textbook, course, or official reference. A helpful analogy can build intuition, but every analogy has limits.
+
+- Ask for definitions before adding complexity.
+- Request examples and counterexamples.
+
+## Practice recalling, not just reading
+
+Reading a polished answer can feel like understanding. Close the answer and explain the concept yourself, solve a similar problem, or answer a practice question. Ask the assistant to give feedback on your attempt rather than immediately provide the solution. Check its feedback when the subject requires exact answers.
+
+- Try the problem before requesting hints.
+- Space practice over several sessions.
+
+## Build a study routine around your goal
+
+Choose a small learning outcome and schedule practice that demonstrates it. Ask for a plan that fits the time you actually have. Keep track of mistakes and revisit weak areas. Follow your school or training provider’s rules about AI use and acknowledge assistance when required.
+
+- Use AI to adapt practice, not replace your own work.
+- Revisit difficult topics after a delay.
+
+## In practice: A useful tutoring prompt
+
+I am learning spreadsheet percentages. Give me one beginner problem without the answer. After I respond, check my calculation, explain any mistake, and give me a similar problem.
+
+## Try it yourself
+
+Read one lesson, close it, and explain its main idea in three sentences. Reopen it and correct anything you missed.
+
+## Common questions
+
+### Can AI replace a teacher?
+
+AI can provide practice and explanations, but teachers bring context, feedback, responsibility, and knowledge of the learner that a tool may not have.
+
+### How do I know I learned something?
+
+Try explaining or applying it without looking at the answer. Correct performance on a new example is stronger evidence than familiarity with the wording.
+
+## Sources and further reading
+
+- [UNESCO: AI in education](https://www.unesco.org/en/digital-education/artificial-intelligence)
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+
+
+***
+
+# Research with a sharper starting point
+
+Use AI to organize a research question, find evidence, and produce a source-backed summary.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Turn your question into a research plan
+
+Define what you need to decide, which time period matters, and what would count as useful evidence. Ask an assistant to suggest subquestions and search terms. Check the scope before collecting information. A broad question such as what is happening in AI becomes more useful when narrowed to a particular task, industry, and location.
+
+- Separate background information from decision-critical facts.
+- List what would change your conclusion.
+
+## Find and inspect original evidence
+
+Use AI suggestions as leads. Open original documentation, research, or official statistics and check the date, methodology, and scope. Ask whether the source actually supports the claim. When a tool cannot browse, request search terms rather than pretending it has checked current information.
+
+- Record source links beside your notes.
+- Compare independent sources for disputed claims.
+
+## Write a summary that preserves uncertainty
+
+Organize findings into what the evidence supports, where sources disagree, and what remains unknown. Link important claims to their sources. Keep recommendations separate from facts. If a decision depends on missing information, say what further research is needed rather than filling the gap with a plausible guess.
+
+- Include relevant limits and assumptions.
+- Check every quotation and numerical claim before sharing.
+
+## In practice: A useful research brief
+
+Compare three public training options for a small support team. Record the current syllabus, accessibility, time commitment, price date, and source. Ask AI to structure the comparison, then verify the entries yourself.
+
+## Try it yourself
+
+Choose a narrow question. Find two original sources, summarize their agreement and disagreement, and explain what you still do not know.
+
+## Common questions
+
+### Can I cite an AI answer as evidence?
+
+For factual research, cite the original evidence. Follow your institution’s rules if you also need to acknowledge AI assistance.
+
+### What if the assistant cannot browse?
+
+Use it to develop questions and organize material you provide. Do not treat its response as a current web search.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OpenAI: Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
+
+
+***
+
+# Write faster. Still sound like you.
+
+Draft and edit useful writing with AI while preserving accuracy, intention, and your own voice.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/write-and-edit-with-ai/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Start with purpose and real material
+
+Give the assistant your audience, purpose, key facts, and desired action. Supply your own notes instead of asking it to invent expertise or experience. Decide whether you need an outline, draft, or critique. These are different tasks, and separating them makes revision easier.
+
+- Identify the one thing the reader should understand or do.
+- Mark facts and quotations that must stay unchanged.
+
+## Edit for clarity and voice
+
+Ask for specific changes: remove repetition, shorten sentences, explain jargon, or reorganize an argument. Provide a short sample of your own writing when useful. Review whether the result still means what you intended. Polished language can accidentally remove a caveat, change a commitment, or make an unsupported claim sound certain.
+
+- Compare the revision against the original.
+- Keep words you would naturally use.
+
+## Review before publishing
+
+Check names, dates, sources, promises, and originality. Confirm you have permission to use supplied material. Follow your organization’s disclosure policy and any applicable publishing requirements. Read the final piece aloud or ask a colleague to review it when the message is sensitive.
+
+- Remove invented testimonials or credentials.
+- Check that the requested action is clear.
+
+## In practice: An editing prompt
+
+Edit this announcement for a general audience. Keep the launch date and eligibility rules unchanged. Cut repetition and explain technical terms. List any ambiguity separately instead of guessing what we mean.
+
+## Try it yourself
+
+Take a paragraph you wrote. Ask for a clearer version, then identify one useful change and one change you would reject.
+
+## Common questions
+
+### Will AI writing always sound generic?
+
+No, but a generic brief often produces generic writing. Specific source material, audience context, and human editing improve the result.
+
+### Can I publish the first draft?
+
+Review it first. You remain responsible for accuracy, permissions, and the commitments it makes.
+
+## Sources and further reading
+
+- [OpenAI: Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Make meetings lead somewhere
+
+Turn approved meeting notes into useful summaries, action items, and concise follow-up emails.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/ai-email-and-meetings/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Prepare with the right information
+
+Before a meeting, ask an approved tool to organize public or permitted background notes into an agenda. Separate the decision needed from general discussion. If you plan to record or transcribe a meeting, follow applicable consent rules and your organization’s policy. Access to a tool does not establish permission to record people.
+
+- State the purpose and required decisions.
+- Avoid uploading confidential notes to an unapproved service.
+
+## Separate decisions from suggestions
+
+Ask for distinct sections for decisions, open questions, and actions. Require the assistant to preserve the difference between an idea and an agreed commitment. Each action should have an owner and date only when the notes actually specify them. Missing details should be marked unconfirmed.
+
+- Check names and speaker attribution.
+- Compare every action item with the source notes.
+
+## Send a useful follow-up
+
+Keep the email short enough for the team to act on. Include the agreed decisions, responsibilities, deadlines, and unresolved questions. Confirm the recipients and permissions before sending. A draft is an opportunity to review, especially when the message creates expectations outside your team.
+
+- Ask people to correct misunderstood commitments.
+- Store the final notes where the team can find them.
+
+## In practice: A reviewable action list
+
+The notes say Sam will investigate two options. They do not give a deadline. The action list should say Sam: investigate options; deadline unconfirmed. It should not invent Friday as the due date.
+
+## Try it yourself
+
+Create fictional meeting notes with one decision, one suggestion, and one missing deadline. Check whether an assistant keeps them separate.
+
+## Common questions
+
+### Can AI send the follow-up automatically?
+
+Some tools can, but review the facts, recipients, and commitments before enabling automatic external communication.
+
+### Should every meeting be transcribed?
+
+No. Consider consent, sensitivity, retention, and whether transcription is necessary.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Get comfortable with data
+
+Use AI to explain spreadsheet formulas, clean sample data, and check analytical conclusions.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/ai-spreadsheets-and-data/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Explain the structure before asking for a formula
+
+Describe column meanings, data types, and the result you need. Provide a small fictional example with an expected answer. Specify the spreadsheet product because functions can differ. Ask the assistant to explain a formula in plain language so you can judge whether it matches your intention.
+
+- Check regional date and number formats.
+- Clarify how blanks, duplicates, and zero values should behave.
+
+## Test transformations on a copy
+
+Keep an untouched original. Try cleaning or calculation steps on a sample that includes edge cases, such as missing values and repeated rows. Check before-and-after totals. A formula that works for the first row may fail on mixed formats or a larger range.
+
+- Verify formulas with manually calculated examples.
+- Watch for changed identifiers and leading zeros.
+
+## Interpret results carefully
+
+Ask what assumptions an analysis makes and which alternative explanations remain. Correlation does not establish cause. Check sample size, definitions, units, and time periods before making a decision. Use an appropriate analytical tool for the calculation and AI to help explain or inspect the method.
+
+- Separate observed patterns from predictions.
+- Do not upload sensitive datasets without approval.
+
+## In practice: A useful test case
+
+Before accepting a formula for average order value, test three orders, a refund, and a blank row. Decide whether refunds belong in revenue and which rows count as orders. The business definition comes before the formula.
+
+## Try it yourself
+
+Create five fictional rows and calculate an expected total by hand. Ask for a formula and test whether it handles a blank and a duplicate correctly.
+
+## Common questions
+
+### Can I trust a spreadsheet formula from AI?
+
+Treat it as a draft. Test normal inputs and edge cases, and understand the formula before relying on it.
+
+### Can AI replace statistical expertise?
+
+No. AI can assist with explanations and code, but the design, assumptions, and interpretation still require appropriate expertise.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+
+
+***
+
+# Automate one small thing well
+
+Choose a sensible first automation and test triggers, approvals, failures, and recovery.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/automate-repetitive-work/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Choose a repeatable, low-stakes task
+
+Look for work with a clear input, stable rules, and an output you can verify. Standard software rules may be enough; not every automation needs an AI model. Use AI when the task benefits from language interpretation or flexible classification, and keep the scope small while you learn.
+
+- Estimate current effort and common mistakes.
+- Avoid starting with payments, deletion, or irreversible commitments.
+
+## Map the workflow before connecting tools
+
+Write the trigger, input, transformation, review, and output. Check which accounts and permissions are needed. Decide where a person approves the result. Give the workflow only the access it requires, and protect any credentials through the platform’s supported secret settings.
+
+- Make repeated events safe to handle.
+- Set limits on volume, runtime, and spending.
+
+## Test failure and recovery
+
+Try missing fields, duplicate inputs, unavailable services, and incorrect classifications. Define what happens when a step fails. Keep a log that helps you investigate without exposing sensitive information. Run a pilot alongside the manual process and compare quality before depending on the automation.
+
+- Build a visible stop or disable option.
+- Record how to recover work that only partly completed.
+
+## In practice: A good first pilot
+
+A form submission creates a draft internal task with a suggested category. A team member checks the category before assignment. Duplicate submissions are recognized so the workflow does not create repeated tasks.
+
+## Try it yourself
+
+Map one routine task in five boxes. Mark which steps need rules, AI assistance, or human review, and write one failure case for each.
+
+## Common questions
+
+### Do I need coding skills?
+
+Many automation tools provide visual builders. You still need to understand permissions, logic, errors, and the consequences of each action.
+
+### How do I know automation saved time?
+
+Compare total effort, including setup, corrections, monitoring, and failures, against the previous process.
+
+## Sources and further reading
+
+- [OWASP: Top risks for generative AI applications](https://genai.owasp.org/llm-top-10/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Turn an idea into a visual story
+
+Create clearer visual briefs, useful presentation outlines, and accessible AI-assisted images.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Write a visual brief
+
+Describe the purpose, audience, subject, layout, mood, and practical constraints. Specify where the image will appear and whether space is needed for text. For a presentation, begin with the message and evidence before choosing visuals. Attractive slides cannot repair an unclear argument.
+
+- Use references you have permission to share.
+- Specify dimensions and accessibility needs.
+
+## Refine the result deliberately
+
+Review one aspect at a time, such as composition, contrast, or consistency. Check generated text, diagrams, charts, and human details carefully. Use real data for charts and verify labels. For slides, reduce unnecessary words and make the relationship between the visual and the point explicit.
+
+- Avoid presenting synthetic images as documentary evidence.
+- Keep a consistent visual language across a deck.
+
+## Check rights and accessibility
+
+Read the tool’s terms and consider applicable rights, consent, trademarks, and organizational policy. Permission to use a tool does not automatically settle rights in every output. Add useful alternative text, check contrast, and make important information available as actual text rather than only inside an image.
+
+- Use human review for public-facing material.
+- Keep source files and a record of key inputs.
+
+## In practice: A stronger image brief
+
+Create a simple illustration of a person learning at a desk for an introductory AI guide. Use a calm palette, leave clear space on the left for a heading, and include no embedded text or recognizable real person.
+
+## Try it yourself
+
+Outline a three-slide explanation of a familiar topic. Give each slide one message, one supporting fact, and one visual that makes the idea clearer.
+
+## Common questions
+
+### Can I use any AI image commercially?
+
+Check the specific tool’s current terms and the rights involved in the input and output. Requirements vary by context and jurisdiction.
+
+### Should a chart be generated as an image?
+
+Use verified data and charting software for factual charts. An image model can produce plausible but inaccurate labels and values.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [UNESCO: AI in education](https://www.unesco.org/en/digital-education/artificial-intelligence)
+
+
+***
+
+# Your first coding companion
+
+Use AI to understand code, build a small project, and test changes without losing control of the work.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Choose a small, understandable project
+
+Start with something you can describe and test, such as a local page that converts a measurement. Ask for an explanation of the files and how to run them. Learn enough about the language and environment to recognize what the code is doing. Keep an original copy or use version control before making changes.
+
+- Define one feature and an observable result.
+- Use official documentation to check unfamiliar commands.
+
+## Make small changes and inspect them
+
+Ask for one change at a time and review the difference. Do not run unfamiliar shell commands without understanding their effect. Keep credentials out of prompts, source files, and commits. Treat code copied from an assistant with the same care as code from another untrusted source.
+
+- Request explanations of dependencies and permissions.
+- Avoid running a development server with unnecessary public access.
+
+## Test behavior, including failure cases
+
+Check the expected result and invalid inputs. For larger changes, use appropriate automated tests and review security-sensitive behavior. A program starting without errors does not prove it is correct. If a change fails, share the relevant error and a minimal example instead of repeatedly asking for a complete rewrite.
+
+- Check keyboard and mobile behavior for interfaces.
+- Review dependencies and use supported versions.
+
+## In practice: A meaningful first test
+
+For a temperature converter, check zero, a negative number, a decimal, and an empty input. Confirm the expected results with a known formula. A colorful interface is not a substitute for correct conversion.
+
+## Try it yourself
+
+Write the input, expected output, and two invalid cases for a tiny project before asking an assistant to create the implementation.
+
+## Common questions
+
+### Can I build software without understanding code?
+
+AI can help you start, but understanding the behavior and obtaining appropriate review becomes more important as the software affects real people or data.
+
+### Should I paste a whole private codebase into a chatbot?
+
+Only through an approved service with suitable permissions and data controls. A minimal sanitized example is often more useful.
+
+## Sources and further reading
+
+- [OWASP: Top risks for generative AI applications](https://genai.owasp.org/llm-top-10/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Make your next application more thoughtful
+
+Use AI to research roles, improve a truthful CV, and practice relevant interview answers.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/work/ai-for-job-search/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Understand the role before applying
+
+Read the job description and identify responsibilities, essential requirements, and evidence the employer is likely to value. Ask AI to organize those requirements, then check the original posting. Research the employer through official sources and avoid relying on invented company facts.
+
+- Distinguish required skills from desirable ones.
+- Keep a record of the specific role and application deadline.
+
+## Translate your real experience clearly
+
+Provide factual notes about your experience and ask for a clearer structure. Do not invent achievements, qualifications, or numerical results. Tailor emphasis to the role while keeping the underlying facts consistent. Remove personal details that are unnecessary for drafting and review every claim before submission.
+
+- Use examples of actions and outcomes you can explain.
+- Keep formatting readable and follow application instructions.
+
+## Practice answering and asking questions
+
+Ask for one interview question at a time and answer from your own experience. Use feedback to improve clarity and relevance. Verify technical feedback with a trusted source. Prepare thoughtful questions about the team, expectations, and learning support. Follow the employer’s rules on AI use in assessments.
+
+- Practice without reading a generated script.
+- Keep a human version of your story in your own words.
+
+## In practice: A truthful CV prompt
+
+Using only these experience notes, suggest three concise bullet points relevant to the support role below. Do not add metrics or qualifications. Ask me for missing evidence instead of inventing it.
+
+## Try it yourself
+
+Choose one job requirement and write a short example of when you demonstrated it. Ask AI to improve the clarity while preserving every fact.
+
+## Common questions
+
+### Can AI guarantee my CV passes an applicant tracking system?
+
+No. Follow the employer’s instructions, use clear relevant language, and avoid claims of guaranteed screening success.
+
+### Should I use AI during an interview?
+
+Follow the employer’s stated rules. Preparing with AI is different from receiving undisclosed assistance during an assessment.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+
+
+***
+
+# Will AI affect my job?
+
+Assess how AI could change the tasks in your role without treating uncertain forecasts as personal predictions.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/careers/will-ai-affect-my-job/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Look at tasks, not just job titles
+
+A job combines many activities: preparing information, communicating, making decisions, building relationships, and taking responsibility. AI may assist some tasks while leaving others largely unchanged. List what you actually do in a normal week. A broad claim about an occupation is not a reliable prediction about your particular employer or future.
+
+- Record time spent on each task.
+- Separate routine production from judgment, trust, and responsibility.
+
+## Understand exposure versus replacement
+
+Research on AI exposure often estimates which tasks a technology could perform or assist. It does not establish whether an employer will adopt it, whether adoption is economical, or whether a job will disappear. Quality requirements, regulation, customer expectations, and organizational choices all matter. Read the definitions behind a forecast before using its headline.
+
+- Treat scenarios as possibilities rather than promises.
+- Check the country, sector, and date of the evidence.
+
+## Turn uncertainty into a useful conversation
+
+Identify one task where AI could help and one capability your team still needs from people. Ask your manager how tools are being evaluated and what training is available. Build a practical plan around skills you can demonstrate. No online quiz or single score can reliably predict your personal job security.
+
+- Track changes in actual responsibilities and hiring requirements.
+- Keep reviewing your plan as your workplace changes.
+
+## In practice: A task-level view
+
+A support role might use AI to draft routine replies, while people still handle exceptions, complex complaints, and relationship repair. The outcome depends on service design and quality expectations, not just the ability to generate text.
+
+## Try it yourself
+
+List five tasks in your role. Mark each as suitable for assistance, needing close review, or dependent on human responsibility. Write one learning action for the next month.
+
+## Common questions
+
+### Can a quiz tell me if AI will take my job?
+
+No. These quizzes assess selected knowledge. They do not predict employment outcomes or evaluate your employer’s plans.
+
+### Does AI exposure mean redundancy?
+
+No. Exposure describes potential task effects. Employment outcomes depend on adoption, demand, organizational decisions, and other factors.
+
+## Sources and further reading
+
+- [International Labour Organization: AI and the world of work](https://www.ilo.org/topics-and-sectors/artificial-intelligence)
+- [OECD: Artificial intelligence and the future of work](https://www.oecd.org/en/topics/artificial-intelligence-and-work.html)
+
+
+***
+
+# Build confidence for changing work
+
+Develop practical AI skills alongside the judgment, communication, and industry knowledge your work needs.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Start with your existing strengths
+
+Your knowledge of customers, processes, standards, and exceptions helps you judge AI output. Identify situations where you make a decision that depends on context. These strengths can become more valuable when more routine material is generated quickly. Keep developing them instead of treating a new tool as a complete replacement for professional knowledge.
+
+- Write down examples of useful judgment.
+- Ask colleagues which parts of your work they rely on.
+
+## Add skills that connect to real work
+
+Choose a relevant AI skill and practice it on a permitted task. Learn how to give instructions, check outputs, protect information, and explain your method. Combine this with communication, data literacy, and process improvement. A practical combination is easier to demonstrate than a long list of unfamiliar tools.
+
+- Choose one measurable learning outcome.
+- Ask a knowledgeable person for feedback.
+
+## Keep evidence and revisit the plan
+
+Document what changed, what improved, and where the method failed. Include correction time and quality checks when describing results. Revisit your plan as the team’s needs change. Career resilience is an ongoing practice, not a guarantee that a role will stay the same.
+
+- Keep a small portfolio of sanitized examples.
+- Update your learning priorities periodically.
+
+## In practice: A useful capability statement
+
+I can turn approved meeting notes into a reviewed action summary, check every commitment against the source, and identify missing owners or dates. This describes a practical skill more clearly than saying AI expert.
+
+## Try it yourself
+
+Choose one current strength and one AI skill that could complement it. Design a small project that demonstrates both.
+
+## Common questions
+
+### Do I need to become an AI engineer?
+
+Not for most nontechnical roles. Focus first on applying approved tools responsibly in your own work.
+
+### Are certificates enough?
+
+A certificate may support your learning record, but practical examples and sound explanations help demonstrate what you can actually do.
+
+## Sources and further reading
+
+- [OECD: Artificial intelligence and the future of work](https://www.oecd.org/en/topics/artificial-intelligence-and-work.html)
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+
+
+***
+
+# Which AI skills should you learn?
+
+Read job requirements critically and prioritize transferable AI skills you can demonstrate.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/careers/ai-skills-employers-value/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Use actual roles as evidence
+
+Collect a few current job descriptions relevant to your interests. Highlight tasks, tool requirements, domain knowledge, and expectations around accuracy or data. Do not assume every mention of AI means model development. Some roles need practical use, others need engineering, governance, or specialist research.
+
+- Check the seniority and responsibilities behind the title.
+- Notice requirements that repeat across several employers.
+
+## Build a transferable foundation
+
+Useful foundations include selecting an appropriate task, writing clear instructions, checking evidence, understanding data boundaries, and communicating limitations. More technical paths may add programming, statistics, evaluation, and deployment. Select the level that matches your intended role rather than trying to learn every specialty at once.
+
+- Pair AI skills with relevant subject knowledge.
+- Include evaluation and responsible use in your practice.
+
+## Show the skill in context
+
+Choose a realistic project with a clear goal and observable result. Explain your inputs, checks, decisions, and limitations. Use synthetic or public material where needed. Be precise about what the tool did and what you contributed. A reviewer should be able to understand why the work is useful.
+
+- Show a before-and-after example when appropriate.
+- Avoid unsupported claims about time saved or accuracy.
+
+## In practice: From keyword to evidence
+
+If a role asks for AI-assisted reporting, create a small report from public data, document the source, verify the calculations, and explain your review process. This demonstrates a workflow rather than just a tool name.
+
+## Try it yourself
+
+Compare three role descriptions. Pick one repeated requirement and turn it into a project you could complete and explain.
+
+## Common questions
+
+### Is prompt engineering the only AI skill?
+
+No. Task selection, evidence checking, data literacy, workflow design, and communication also matter. Technical roles require additional specialist skills.
+
+### Which course should I buy?
+
+Identify the learning outcome first. Check the syllabus, practical exercises, accessibility, independent feedback, and current price before committing.
+
+## Sources and further reading
+
+- [OECD: Artificial intelligence and the future of work](https://www.oecd.org/en/topics/artificial-intelligence-and-work.html)
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+
+
+***
+
+# A small-step, 30-day AI plan
+
+Build a manageable month of learning around practical tasks, feedback, and a finished project.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/careers/30-day-ai-learning-plan/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Week one: build a safe foundation
+
+Learn the basic concepts, write a clear prompt, check a generated answer, and review privacy boundaries. Use short sessions and public or fictional material. Keep a note of mistakes and questions. Adjust the schedule to your circumstances rather than treating a daily streak as the goal.
+
+- Complete the AI basics and privacy lessons.
+- Try one task you can verify independently.
+
+## Weeks two and three: practice in context
+
+Choose a task related to your work or interests. Break it into small steps and practice the difficult parts. Compare AI-assisted work with your usual method. Ask someone knowledgeable to review an example. Use the feedback to improve your process and decide whether the tool is helping.
+
+- Practice writing, research, or data tasks that fit your goal.
+- Include at least one failure case and a correction.
+
+## Week four: finish and explain a project
+
+Complete a small project and document the goal, source material, method, review, and limitations. Explain it without relying on a generated script. Decide what you can now do and what still needs practice. Choose your next learning goal based on the gaps you found.
+
+- Create a short project summary.
+- Repeat a task from week one and compare the quality.
+
+## In practice: A realistic monthly outcome
+
+By the end of the month, you can produce a source-backed summary of a public topic, verify its key claims, and explain how you used AI. This is a concrete outcome you can assess.
+
+## Try it yourself
+
+Choose three short practice sessions each week. Write one specific outcome for the month and how you will demonstrate it.
+
+## Common questions
+
+### Will I master AI in 30 days?
+
+No fixed schedule guarantees mastery. A month can establish useful habits and a foundation for continued learning.
+
+### What if I miss a day?
+
+Resume with the next useful practice session. Adjust the plan to your available time rather than rushing through material.
+
+## Sources and further reading
+
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# Make your learning visible
+
+Build an honest AI skills portfolio with useful projects, clear methods, and verifiable results.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/careers/build-an-ai-portfolio/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Choose projects with a real purpose
+
+Select a small problem relevant to the work you want to do. A source-backed briefing, an accessible presentation, or a tested spreadsheet workflow can be more informative than a flashy demonstration with no clear purpose. Use public, licensed, or synthetic inputs and protect information from your employer or clients.
+
+- State who the project helps and why.
+- Define what success would look like before starting.
+
+## Document your process and decisions
+
+Explain the inputs, tools, instructions, review steps, and changes you made. Include an example of a weak result and how you corrected it. Make your own contribution explicit. If you report a time saving or quality improvement, explain how you measured it and the limits of that comparison.
+
+- Keep prompts and source material where sharing is permitted.
+- Record errors as well as improvements.
+
+## Present a clear, honest case study
+
+Use a short structure: problem, method, result, and lessons. Provide a working example or screenshots where appropriate. Avoid invented clients, qualifications, or performance claims. A useful portfolio helps someone understand how you think, not just that a tool produced an attractive output.
+
+- Explain what you would change next.
+- Check accessibility, permissions, and links before sharing.
+
+## In practice: A portfolio outline
+
+Problem: a public guide is difficult to navigate. Method: use AI to propose a structure, verify content manually, and test navigation with a colleague. Result: show the revised guide and describe feedback without claiming unmeasured business impact.
+
+## Try it yourself
+
+Draft a one-page case study outline for a project you can complete using public or fictional information.
+
+## Common questions
+
+### Can I include workplace projects?
+
+Only with permission and appropriate removal of confidential information. A recreated example using synthetic inputs may be safer.
+
+### Should I mention AI assistance?
+
+Describe the tools and your contribution clearly. Follow any relevant employer, educational, or publishing disclosure rules.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [European Commission: AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)
+
+
+***
+
+# Help your team start well
+
+Plan a useful AI pilot with clear boundaries, practical training, and meaningful evaluation.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/careers/introduce-ai-to-your-team/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Choose a problem the team recognizes
+
+Ask where repetitive work causes delays or frustration. Select one bounded task with an observable output and a willing group of users. Define the baseline process before introducing a tool. A pilot should answer a specific question about usefulness, not simply demonstrate that the team has adopted AI.
+
+- Include the people who do the work.
+- Check procurement, security, accessibility, and policy requirements.
+
+## Set boundaries and support practice
+
+Explain which information is permitted, who reviews outputs, and which actions require approval. Provide realistic examples and time to practice. Make it easy to report errors without blame. Training should include limitations and recovery, not just the successful demonstration.
+
+- Assign an owner for the workflow and its documentation.
+- Provide an alternative when the tool is unsuitable.
+
+## Measure the whole workflow
+
+Compare output quality, correction effort, turnaround, and user experience with the baseline. Look for errors that are hard to detect. Keep evidence of both benefits and failures. Decide whether to stop, adjust, or expand based on those results, and continue monitoring after a rollout.
+
+- Include review and maintenance time in cost estimates.
+- Recheck performance when the tool or process changes.
+
+## In practice: A bounded pilot
+
+For two weeks, a small team uses an approved tool to draft internal meeting summaries. A person checks each summary. The team records correction time, missing actions, and usefulness before deciding whether to continue.
+
+## Try it yourself
+
+Write a one-page pilot brief with a task, owner, permitted data, review process, success measures, and stopping conditions.
+
+## Common questions
+
+### Should AI training be the same for everyone?
+
+Everyone benefits from basic literacy, but practical training should reflect their tasks, authority, and data responsibilities.
+
+### What is a good success metric?
+
+Use measures linked to the task, such as verified output quality and total effort. Usage counts alone do not demonstrate value.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OECD: Artificial intelligence and the future of work](https://www.oecd.org/en/topics/artificial-intelligence-and-work.html)
+
+
+***
+
+# AI for administration
+
+Practical ways to organize documents, prepare meetings, and support follow-ups while protecting workplace information.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Organize information for a clear purpose
+
+Use an approved assistant to turn permitted notes into a checklist, agenda, or document outline. Specify who will use it and which facts must remain unchanged. Administration often involves details that create real commitments, so verify names, dates, locations, and responsibilities against the original.
+
+- Start with public templates or fictional notes.
+- Keep the source document available during review.
+
+## Prepare meetings and follow-ups
+
+Ask for an agenda built around decisions needed, then draft a summary after the meeting. Separate agreed actions from suggestions. Mark missing owners or dates as unconfirmed. Review calendar time zones and recipients manually before creating invitations or sending messages.
+
+- Check whether recording or transcription is permitted.
+- Confirm the final action list with the relevant people.
+
+## Create a repeatable quality checklist
+
+Build a short checklist for recurring outputs: complete, correct, appropriately shared, and easy to act on. Use templates to make the review consistent. If you automate a handoff, test duplicates and failures and keep a person responsible for external commitments.
+
+- Review permissions on shared documents.
+- Measure correction time as well as drafting time.
+
+## In practice: Try this workflow
+
+Give an approved assistant fictional meeting notes and request a three-section follow-up: decisions, actions, and open questions. Check that a suggested date was not turned into an agreed deadline.
+
+## Try it yourself
+
+Build an agenda template with a purpose, decision needed, preparation, owner, and time allocation.
+
+## Common questions
+
+### Can AI manage a calendar without review?
+
+Some systems can change calendars, but invitations, time zones, privacy, and commitments need appropriate controls.
+
+### What is a good first task?
+
+A low-stakes document outline or agenda from non-sensitive notes is a useful starting point.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# AI for customer support
+
+Draft clearer replies, find relevant policies, and recognize when a customer needs a person.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-customer-support/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Draft from an approved knowledge base
+
+Ask the tool to use current support information and cite the relevant policy section. A friendly reply can still be wrong if it promises a refund or exception that is not authorized. Review the customer’s actual question and avoid introducing facts that are missing from the case.
+
+- Check policy dates and eligibility details.
+- Remove unnecessary personal information from prompts.
+
+## Use summaries to improve handoffs
+
+Summarize the issue, steps already tried, and unresolved questions. Preserve the customer’s meaning and distinguish their statements from verified facts. A good summary helps the next person understand the situation without repeatedly asking the customer for the same information.
+
+- Include relevant case references through approved systems.
+- Check that important context was not omitted.
+
+## Know when to escalate
+
+Escalate complex complaints, safety concerns, unusual exceptions, and situations outside the tool’s authority. Track errors and review patterns before expanding automation. Quality measures should include resolution, correctness, and customer experience, not only response speed.
+
+- Give customers a usable route to human support.
+- Review sensitive or consequential replies before sending.
+
+## In practice: A useful boundary
+
+AI drafts an explanation of a published returns policy. A support specialist checks eligibility and decides whether an exception is authorized. The draft does not make that decision on its own.
+
+## Try it yourself
+
+Write a sample support question, a correct policy excerpt, and an unrelated excerpt. Check whether the assistant uses the right evidence.
+
+## Common questions
+
+### Can AI handle every support request?
+
+No. Exceptions, sensitive situations, and unclear evidence need suitable escalation and human judgment.
+
+### Which result matters most?
+
+Use a balanced view of accuracy, resolution quality, customer experience, and total effort.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# AI for marketing
+
+Support audience research, content development, and campaign review without inventing evidence or results.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Start from real audience evidence
+
+Use permitted research, customer feedback, and product information to define a campaign brief. AI can group themes and suggest questions, but generated personas are hypotheses unless supported by research. Keep assumptions visible and validate them before making a major investment.
+
+- Separate observed feedback from suggested interpretations.
+- Avoid uploading personal customer records without approval.
+
+## Create options, then exercise editorial judgment
+
+Ask for several directions that fit the audience, channel, and brand. Review factual claims, tone, and accessibility. Verify product features, prices, testimonials, and comparative claims against approved material. Never publish fabricated customer quotes or results.
+
+- Use a clear review checklist for every channel.
+- Preserve the distinction between a concept and a proven claim.
+
+## Measure the campaign honestly
+
+Decide on useful measures before launch. Use actual analytics and account for changes in audience, timing, and spend. AI can help explain a report, but it cannot establish that a campaign caused a result without an appropriate evaluation design.
+
+- Check calculations and attribution assumptions.
+- Document what you learned for the next campaign.
+
+## In practice: A useful content brief
+
+Create three article outlines for first-time users of a real feature. Supply the approved feature description, audience questions, tone, and claims that must not be made. Choose and revise the strongest outline.
+
+## Try it yourself
+
+Take one campaign idea and label each supporting statement as evidence, assumption, or proposed test.
+
+## Common questions
+
+### Can AI invent a customer persona?
+
+It can generate a hypothetical persona. Treat it as a starting hypothesis, not validated customer research.
+
+### Can AI write testimonials?
+
+Do not present invented testimonials as real customer experiences. Use genuine, authorized feedback.
+
+## Sources and further reading
+
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+
+
+***
+
+# AI for sales
+
+Prepare relevant conversations and useful follow-ups using verified information and appropriate customer data controls.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-sales/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Research a prospect responsibly
+
+Use public and approved information to understand the organization and its likely priorities. Ask AI to organize findings and flag assumptions. Verify facts before mentioning them in outreach. Avoid inferring sensitive personal characteristics or making a message appear more personally informed than it really is.
+
+- Check the organization’s own website and recent announcements.
+- Keep research relevant to the business conversation.
+
+## Prepare questions and follow-ups
+
+Ask for open questions linked to the customer’s stated needs. After a conversation, draft a follow-up that preserves what was actually discussed. Review pricing, capabilities, timelines, and contractual language against approved information before sending.
+
+- Do not invent a previous interaction.
+- Separate customer requests from commitments your team has made.
+
+## Keep records accurate and useful
+
+Use approved systems to summarize notes and suggest next steps. Check entries before they become part of the customer record. Follow data retention and outreach rules applicable to your work. Measure whether AI improves relevance and accuracy, not just message volume.
+
+- Record uncertainty instead of guessing missing details.
+- Confirm recipients and permissions before automation.
+
+## In practice: A better follow-up
+
+The customer asked whether integration is possible. Your email should promise to confirm compatibility, not claim integration is supported before the technical team checks it.
+
+## Try it yourself
+
+Draft five discovery questions using a fictional customer brief. Remove any question that assumes an unverified problem.
+
+## Common questions
+
+### Should I automate all outreach?
+
+Consider relevance, consent, applicable rules, brand impact, and error handling before enabling automation.
+
+### Can AI update a CRM?
+
+Some integrations can. Use appropriate permissions and review important facts before relying on the record.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# AI for finance and accounting
+
+Use AI to support explanations, spreadsheet work, and document organization while retaining professional review.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-finance-and-accounting/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Use AI for support, not unchecked authority
+
+An assistant can explain a formula, organize a document, or suggest a reconciliation checklist. Financial decisions and records need reliable evidence and appropriate professional review. Use the current standards and rules applicable to your jurisdiction and organization rather than relying on a generated explanation.
+
+- Keep original records and a clear audit trail.
+- Use synthetic data when testing a new workflow.
+
+## Verify calculations and definitions
+
+Calculate important figures in a suitable spreadsheet or accounting system. Check units, currencies, dates, tax treatment, and the meaning of each category. Test formulas against known examples and edge cases. A numerically correct total can still be misleading if it uses the wrong definition or period.
+
+- Reconcile outputs to source records.
+- Document assumptions and exceptions.
+
+## Protect records and preserve accountability
+
+Financial information may include personal, commercial, and regulated data. Use approved systems and access controls. AI-generated explanations should not be treated as personalized tax, investment, or legal advice. Assign a responsible reviewer before any output affects reporting or a consequential decision.
+
+- Check retention and sharing requirements.
+- Never paste credentials or unrestricted financial records into an unapproved tool.
+
+## In practice: A sensible first task
+
+Use fictional transactions to ask for a spreadsheet formula and explanation. Test it against a hand-calculated result, a refund, and a missing value before considering an approved workplace application.
+
+## Try it yourself
+
+Create a five-item review checklist for an AI-assisted spreadsheet containing totals, currency, dates, exclusions, and source reconciliation.
+
+## Common questions
+
+### Can AI file or approve financial records for me?
+
+Capabilities vary, but consequential submissions need authorized workflows, controls, and professional review.
+
+### Is a financial explanation from AI advice?
+
+A general explanation is not a substitute for advice from an appropriately qualified professional who understands your circumstances.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# AI for HR and recruitment
+
+Improve communications and learning materials while protecting people’s information and reviewing fairness.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-hr-and-recruitment/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Improve communication with clear criteria
+
+Use AI to clarify a job description, onboarding checklist, or training outline from approved material. Check whether requirements are relevant to the role and language is accessible. Generated text can reproduce assumptions or bias, so review the substance as well as the tone.
+
+- Separate essential requirements from preferences.
+- Verify policies and benefits against authoritative internal sources.
+
+## Treat candidate and employee data carefully
+
+Applications, performance information, and employee questions can contain sensitive personal details. Use only approved systems and the minimum necessary information. Understand applicable employment, privacy, and discrimination rules before considering an automated assessment process.
+
+- Use synthetic examples during training.
+- Check access, retention, and vendor arrangements.
+
+## Keep consequential decisions accountable
+
+Do not assume a generated ranking is fair or valid because it is numerical. Any system affecting hiring, promotion, or employment needs appropriate legal, fairness, and operational review. Provide human oversight and a route to challenge or correct inaccurate information.
+
+- Document the criteria and evaluation method.
+- Test for errors and unequal effects before adoption.
+
+## In practice: A low-risk starting point
+
+Ask an approved assistant to simplify a public job description while preserving essential requirements. A recruiter and hiring manager check relevance, accessibility, and policy compliance before publication.
+
+## Try it yourself
+
+Review a fictional job description. Highlight vague requirements and rewrite them into observable, role-relevant criteria.
+
+## Common questions
+
+### Can AI choose the best candidate?
+
+A model’s output does not establish job suitability or fairness. Consequential selection requires valid criteria, appropriate oversight, and compliance with applicable rules.
+
+### What is a good training use?
+
+Drafting a general onboarding outline from approved policies is a useful starting task when a responsible person reviews it.
+
+## Sources and further reading
+
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+- [NIST: AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+***
+
+# AI for teaching and learning
+
+Prepare learning activities, adapt explanations, and support practice with careful review and clear expectations.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-education/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Begin with a learning outcome
+
+Decide what learners should be able to explain or do. Ask AI to suggest activities and examples that support that outcome. Check factual accuracy, age appropriateness, accessibility, and alignment with your curriculum. A polished worksheet can still assess the wrong skill.
+
+- Specify the learner’s level and available resources.
+- Review examples for cultural assumptions and bias.
+
+## Support practice and useful feedback
+
+Create varied questions, worked examples, and hints. Verify answer keys independently, including alternative valid answers. Ask learners to explain their reasoning and apply ideas to new examples. Use AI assistance to make practice more accessible while preserving meaningful opportunities to think.
+
+- Match feedback to the specific error.
+- Avoid treating fluent writing as proof of understanding.
+
+## Set expectations and protect learners
+
+Follow institutional rules for AI use, safeguarding, consent, and student information. Explain permitted assistance and acknowledgement requirements. Do not upload identifiable student work to an unapproved service. Teachers remain responsible for judging suitability and making consequential assessments.
+
+- Provide an alternative when access to a tool is unequal.
+- Review automated feedback before relying on it.
+
+## In practice: A useful classroom exercise
+
+Present a short generated explanation with one deliberate error. Ask learners to identify it using a trusted reference and explain the correction. The activity practices evidence checking as well as subject knowledge.
+
+## Try it yourself
+
+Choose a learning outcome and draft one explanation, one practice question, and one way to check independent understanding.
+
+## Common questions
+
+### Can AI mark every assignment?
+
+Automated marking can miss context and valid alternatives. Use institution-approved processes and appropriate human oversight for consequential assessment.
+
+### Should students disclose AI use?
+
+Follow the institution’s policy and explain the expectations clearly before an assignment begins.
+
+## Sources and further reading
+
+- [UNESCO: AI in education](https://www.unesco.org/en/digital-education/artificial-intelligence)
+- [ICO: Artificial intelligence and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)
+
+
+***
+
+# Find your way around
+
+A quick guide to searching lessons, choosing a topic, and finding a useful starting point.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Choose a topic that fits your goal
+
+Use Learn AI for the foundations, AI at work for practical workflows, Careers for learning and job questions, and AI for your role for profession-specific examples. You can read in any order. If you are new to the topic, begin with AI, without the overwhelm and Your first steps into AI.
+
+- Every guide is available without an account.
+- Each topic page groups related articles in one place.
+
+## Search in your own words
+
+Use the search page to look for a topic, task, or question. Search checks guide titles, descriptions, and lesson text in your browser. Try a shorter phrase if your first search is too specific. Topic filters help narrow the results without hiding the rest of the library permanently.
+
+- Try prompts, privacy, job security, or spreadsheets.
+- Clear the search field to return to all guides.
+
+## Use the next useful step
+
+Article contents help you move between sections. Examples show the idea in context, and practice tasks let you try it yourself. Related lessons and quizzes offer a next step. You do not need to finish every article to benefit from one useful improvement to your workflow.
+
+- Use the breadcrumb links to return to a topic.
+- Bookmark a page in your browser if you want to revisit it.
+
+## In practice: A good starting route
+
+Read the AI basics lesson, try one prompting exercise, then take the free AI basics quiz. Use the explanations to decide which lesson to revisit.
+
+## Try it yourself
+
+Search for a task you do regularly and find one guide with an exercise you can try using fictional information.
+
+## Common questions
+
+### Do I need an account?
+
+No. The guides and quizzes on this learning center are available without an account. The main ai-skills.work product may have separate requirements.
+
+### Does my search go to an AI service?
+
+No. The learning center searches its static guide index in your browser.
+
+
+***
+
+# Choose your next small step
+
+Use the learning paths and lesson exercises to build practical AI knowledge at your own pace.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/help/follow-a-learning-path/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Start with your immediate goal
+
+Choose foundations if the concepts feel unfamiliar, practical skills if you have a task in mind, or career guidance if you are deciding what to learn next. The homepage highlights a short beginner route. These paths are suggestions, not entry requirements or qualifications.
+
+- Read the summary before opening a longer guide.
+- Skip familiar material and return when you need it.
+
+## Practice before moving on
+
+Each guide includes a worked example and a small exercise. Use public or invented information and check the result yourself. If an exercise feels difficult, return to the relevant section or try a simpler example. Understanding one task well is more useful than rushing through several pages.
+
+- Write down one thing you learned.
+- Keep a note of a question that still needs an answer.
+
+## Check understanding and revisit gaps
+
+Quizzes provide feedback on selected concepts. They are learning tools, not certifications or employment assessments. Review the explanations, return to the linked lessons, and try a new example. Your browser bookmarks can help you keep track of pages you want to revisit.
+
+- Retake a quiz after reviewing its explanations.
+- Use real-world practice to complement quiz results.
+
+## In practice: A practical route
+
+For a workplace goal, read the privacy guide, learn the prompt structure, and choose a task-specific guide. Complete its exercise before exploring automation.
+
+## Try it yourself
+
+Pick one learning outcome for this week and bookmark two relevant lessons.
+
+## Common questions
+
+### Is there a required order?
+
+No. The beginner route is a suggestion. You can choose lessons based on your interests and current knowledge.
+
+### Will completing a path give me a certificate?
+
+This learning center does not issue a certificate. It provides free lessons, exercises, and knowledge checks.
+
+
+***
+
+# A quick guide to the quizzes
+
+Learn how question cards, navigation, skipped questions, early submission, and retakes work.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/help/take-a-free-ai-quiz/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Answer one card at a time
+
+Choose a quiz and start with the first question card. Select one answer, then use Next to continue. Previous lets you revisit earlier cards and change a selection. The progress display shows how many questions you have answered, so you can distinguish navigation from completion.
+
+- There is no timer or account requirement.
+- You can leave a question unanswered and return to it.
+
+## Submit when you are ready
+
+You can submit after answering at least one question. If questions remain unanswered, a dialog explains that the results may not be fully accurate. Choose Keep answering to continue or Submit anyway to see a partial result. Submitting a partial quiz is optional.
+
+- An unanswered question is not marked as a wrong answer.
+- Partial accuracy is calculated only from answered questions.
+
+## Review and try again
+
+The result shows completion, accuracy on answered questions, and explanations for each item. Use the suggested lesson to review a topic. Retake starts a fresh attempt. Answers are held in the current page session and are not sent to an AI service or saved to an account.
+
+- Reloading the page resets the current attempt.
+- Keep results private if you use a shared device.
+
+## In practice: A partial attempt
+
+If you answer four of six questions and get three right, the result shows 4 of 6 answered and 75% accuracy on answered questions. It clearly labels the attempt incomplete.
+
+## Try it yourself
+
+Open a quiz, answer one question, and inspect the early-submission warning before deciding whether to continue.
+
+## Common questions
+
+### Can I submit before finishing?
+
+Yes, after at least one answer. You will see a warning before an incomplete attempt is submitted.
+
+### Are my answers saved?
+
+No account or server-side answer history is created. The current attempt resets when you reload or leave the page.
+
+
+***
+
+# What your quiz result means
+
+Understand completion, answer accuracy, explanations, and the limits of a short knowledge quiz.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/help/understand-quiz-results/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Read completion and accuracy together
+
+Completion tells you how much of the quiz you answered. Accuracy tells you how many answered questions were correct. Read both values together. A perfect result from one answered question is much less informative than a completed attempt, and the page labels incomplete attempts clearly.
+
+- Skipped questions are listed separately.
+- No overall mastery claim is inferred from a partial attempt.
+
+## Use explanations to find the next lesson
+
+Every question has an explanation of the intended answer. Compare the explanation with your thinking and revisit the relevant guide. A wrong answer is useful feedback about one concept, not a judgment about your ability to learn. Practice applying the idea to a different situation.
+
+- Review correct answers too if you guessed.
+- Look for assumptions that affected your choice.
+
+## Understand what the quiz does not measure
+
+These short quizzes sample selected concepts. They do not establish professional competence, grant a credential, or predict job security. Results can be affected by guessing, incomplete answers, familiarity with wording, and the limited number of questions. Use practical exercises and feedback alongside them.
+
+- Do not use the score for hiring or employment decisions.
+- Treat improvement as a prompt for further practice.
+
+## In practice: A useful interpretation
+
+You missed a question about checking citations. Read the fact-checking guide and verify three real claims. That practice is more informative than repeatedly selecting the remembered answer.
+
+## Try it yourself
+
+After a quiz, choose one explanation and write a new example that demonstrates the same principle.
+
+## Common questions
+
+### Does a high score make me an AI expert?
+
+No. It indicates performance on a small set of knowledge questions. Expertise requires broader understanding, practice, and appropriate evaluation.
+
+### Does the career quiz predict my job risk?
+
+No. It checks understanding of career-related concepts and does not predict anyone’s employment outcome.
+
+
+***
+
+# Need help with ai-skills.work?
+
+Understand the difference between this learning center and the main product, and prepare a useful support question.
+
+Source: https://lj-web-management.github.io/guides.ai-skills.work/help/find-ai-skills-work-help/
+Updated: 2026-10-28
+Publisher: ai-skills.work
+
+## Find the right place for your question
+
+This learning center contains public lessons and free knowledge quizzes. The main ai-skills.work website is a separate destination. Use the main-site link in the navigation for its current product features and available support channels. Learning center guidance should not be assumed to describe account, billing, or feature behavior on the main product.
+
+- For lesson navigation or quiz behavior, use this help collection.
+- For product-specific details, consult the main website’s current information.
+
+## Describe what happened clearly
+
+Record the page, the action you took, what you expected, and what actually happened. Include your browser and device type if relevant. A screenshot can help, but remove personal details, account information, and credentials before sharing it through an appropriate support channel.
+
+- Include an exact error message without sensitive information.
+- Mention whether the issue happens consistently.
+
+## Protect your information while troubleshooting
+
+Never share passwords, one-time codes, secret tokens, or payment details in a support description. Use the service’s official secure route when account verification is required. For a learning center issue, refreshing the page resets the current quiz attempt, so finish or note your results first if you want to keep them.
+
+- Confirm that a support link belongs to the intended service.
+- Do not grant remote access in response to an unsolicited message.
+
+## In practice: A useful problem report
+
+On the AI basics quiz, using a mobile browser, I selected an answer and tapped Next. I expected the second question but remained on the first card. No error was displayed. This gives a maintainer a concrete behavior to investigate.
+
+## Try it yourself
+
+Write a three-sentence issue description using only fictional details: location, steps, and expected versus actual behavior.
+
+## Common questions
+
+### Are the main site and this learning center the same application?
+
+They are linked destinations. This learning center provides public educational content and quizzes; consult the main site for its product features.
+
+### Where are account and billing instructions?
+
+Use the main website’s verified support information. This guide does not invent account or billing workflows that have not been confirmed.

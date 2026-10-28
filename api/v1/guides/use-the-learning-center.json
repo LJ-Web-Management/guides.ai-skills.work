@@ -1,0 +1,53 @@
+{
+  "slug": "use-the-learning-center",
+  "category": "help",
+  "title": "Find your way around",
+  "description": "A quick guide to searching lessons, choosing a topic, and finding a useful starting point.",
+  "sections": [
+    {
+      "title": "Choose a topic that fits your goal",
+      "body": "Use Learn AI for the foundations, AI at work for practical workflows, Careers for learning and job questions, and AI for your role for profession-specific examples. You can read in any order. If you are new to the topic, begin with AI, without the overwhelm and Your first steps into AI.",
+      "bullets": [
+        "Every guide is available without an account.",
+        "Each topic page groups related articles in one place."
+      ]
+    },
+    {
+      "title": "Search in your own words",
+      "body": "Use the search page to look for a topic, task, or question. Search checks guide titles, descriptions, and lesson text in your browser. Try a shorter phrase if your first search is too specific. Topic filters help narrow the results without hiding the rest of the library permanently.",
+      "bullets": [
+        "Try prompts, privacy, job security, or spreadsheets.",
+        "Clear the search field to return to all guides."
+      ]
+    },
+    {
+      "title": "Use the next useful step",
+      "body": "Article contents help you move between sections. Examples show the idea in context, and practice tasks let you try it yourself. Related lessons and quizzes offer a next step. You do not need to finish every article to benefit from one useful improvement to your workflow.",
+      "bullets": [
+        "Use the breadcrumb links to return to a topic.",
+        "Bookmark a page in your browser if you want to revisit it."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A good starting route",
+    "text": "Read the AI basics lesson, try one prompting exercise, then take the free AI basics quiz. Use the explanations to decide which lesson to revisit."
+  },
+  "exercise": "Search for a task you do regularly and find one guide with an exercise you can try using fictional information.",
+  "faq": [
+    {
+      "question": "Do I need an account?",
+      "answer": "No. The guides and quizzes on this learning center are available without an account. The main ai-skills.work product may have separate requirements."
+    },
+    {
+      "question": "Does my search go to an AI service?",
+      "answer": "No. The learning center searches its static guide index in your browser."
+    }
+  ],
+  "sourceKeys": [],
+  "level": "Getting started",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/",
+  "updated": "2026-10-28",
+  "sources": [],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/help/use-the-learning-center/index.md"
+}

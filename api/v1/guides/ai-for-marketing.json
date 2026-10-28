@@ -1,0 +1,65 @@
+{
+  "slug": "ai-for-marketing",
+  "category": "roles",
+  "title": "AI for marketing",
+  "description": "Support audience research, content development, and campaign review without inventing evidence or results.",
+  "sections": [
+    {
+      "title": "Start from real audience evidence",
+      "body": "Use permitted research, customer feedback, and product information to define a campaign brief. AI can group themes and suggest questions, but generated personas are hypotheses unless supported by research. Keep assumptions visible and validate them before making a major investment.",
+      "bullets": [
+        "Separate observed feedback from suggested interpretations.",
+        "Avoid uploading personal customer records without approval."
+      ]
+    },
+    {
+      "title": "Create options, then exercise editorial judgment",
+      "body": "Ask for several directions that fit the audience, channel, and brand. Review factual claims, tone, and accessibility. Verify product features, prices, testimonials, and comparative claims against approved material. Never publish fabricated customer quotes or results.",
+      "bullets": [
+        "Use a clear review checklist for every channel.",
+        "Preserve the distinction between a concept and a proven claim."
+      ]
+    },
+    {
+      "title": "Measure the campaign honestly",
+      "body": "Decide on useful measures before launch. Use actual analytics and account for changes in audience, timing, and spend. AI can help explain a report, but it cannot establish that a campaign caused a result without an appropriate evaluation design.",
+      "bullets": [
+        "Check calculations and attribution assumptions.",
+        "Document what you learned for the next campaign."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A useful content brief",
+    "text": "Create three article outlines for first-time users of a real feature. Supply the approved feature description, audience questions, tone, and claims that must not be made. Choose and revise the strongest outline."
+  },
+  "exercise": "Take one campaign idea and label each supporting statement as evidence, assumption, or proposed test.",
+  "faq": [
+    {
+      "question": "Can AI invent a customer persona?",
+      "answer": "It can generate a hypothetical persona. Treat it as a starting hypothesis, not validated customer research."
+    },
+    {
+      "question": "Can AI write testimonials?",
+      "answer": "Do not present invented testimonials as real customer experiences. Use genuine, authorized feedback."
+    }
+  ],
+  "sourceKeys": [
+    "nist",
+    "privacy"
+  ],
+  "level": "Role guide",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "name": "ICO: Artificial intelligence and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-marketing/index.md"
+}

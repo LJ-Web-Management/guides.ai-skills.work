@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lj-web-management.github.io/guides.ai-skills.work/sitemap.xml

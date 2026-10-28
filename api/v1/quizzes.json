@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "quizzes": [
+    {
+      "slug": "ai-basics",
+      "title": "How well do you know AI?",
+      "description": "A friendly check-in on the concepts behind the conversation.",
+      "questionCount": 6,
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work/quizzes/ai-basics/"
+    },
+    {
+      "slug": "prompt-writing",
+      "title": "Put your prompting to the test",
+      "description": "Choose clearer instructions and more useful follow-ups.",
+      "questionCount": 6,
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work/quizzes/prompt-writing/"
+    },
+    {
+      "slug": "fact-checking",
+      "title": "Can you spot a shaky answer?",
+      "description": "Practice checking evidence, citations, and convincing mistakes.",
+      "questionCount": 6,
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work/quizzes/fact-checking/"
+    },
+    {
+      "slug": "privacy-and-safety",
+      "title": "Are your AI habits safe?",
+      "description": "A few everyday decisions about information, permissions, and sharing.",
+      "questionCount": 6,
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work/quizzes/privacy-and-safety/"
+    },
+    {
+      "slug": "ai-at-work",
+      "title": "Ready for AI at work?",
+      "description": "Test your judgment on drafts, workflows, and human review.",
+      "questionCount": 6,
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work/quizzes/ai-at-work/"
+    },
+    {
+      "slug": "career-readiness",
+      "title": "Build your career perspective",
+      "description": "Check your understanding of AI skills and changing work. No job-risk predictions.",
+      "questionCount": 6,
+      "url": "https://lj-web-management.github.io/guides.ai-skills.work/quizzes/career-readiness/"
+    }
+  ]
+}

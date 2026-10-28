@@ -1,0 +1,65 @@
+{
+  "slug": "learn-ai-for-beginners",
+  "category": "learn",
+  "title": "Your first steps into AI",
+  "description": "A practical beginner roadmap for learning AI without a technical background or expensive course.",
+  "sections": [
+    {
+      "title": "Start with a task you understand",
+      "body": "You do not need to learn every model, acronym, or app. Choose a familiar task, such as summarizing a public article or drafting a personal study plan. Familiarity lets you notice errors. Use invented or public information while you learn, and check that your chosen tool is approved before using it for work.",
+      "bullets": [
+        "Start with one tool and one small task.",
+        "Keep the original information beside the answer."
+      ]
+    },
+    {
+      "title": "Learn through a simple practice loop",
+      "body": "Give the tool a clear instruction, inspect the response, and change one thing in the instruction. Notice what improved and what did not. Keep a small record of the task, prompt, result, and correction. Learning this loop builds a transferable skill even when specific products change.",
+      "bullets": [
+        "Compare a vague prompt with a specific prompt.",
+        "Ask for an explanation of an unfamiliar term, then explain it in your own words."
+      ]
+    },
+    {
+      "title": "Build a manageable learning routine",
+      "body": "Spend your first few sessions understanding limitations, privacy, and prompting. Next, complete one realistic project. Finally, explain your process to someone else. Progress means you can select a suitable task, recognize a weak result, and improve it. Finishing a course is useful, but it is not the only evidence that you can work well with AI.",
+      "bullets": [
+        "Practice for a short, repeatable period.",
+        "Measure the quality of the work, not the number of tools you tried."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A first-week plan",
+    "text": "Day 1: understand the basics. Day 2: practice a clear prompt. Day 3: verify an answer. Day 4: review privacy. Day 5: complete a small task and record what you learned. Repeat anything that still feels unclear."
+  },
+  "exercise": "Choose one public article. Ask for a five-point summary, verify every point, and rewrite the weakest point yourself.",
+  "faq": [
+    {
+      "question": "Can I learn AI without coding?",
+      "answer": "Yes. Using AI responsibly, writing clear prompts, checking outputs, and improving workflows do not require programming. Building AI software may require additional technical skills."
+    },
+    {
+      "question": "How long does it take to learn AI?",
+      "answer": "You can practice basic tasks in a few sessions. Reliable use in a profession takes continuing practice, feedback, and relevant subject knowledge."
+    }
+  ],
+  "sourceKeys": [
+    "literacy",
+    "nist"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "European Commission: AI literacy questions and answers",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/learn/learn-ai-for-beginners/index.md"
+}

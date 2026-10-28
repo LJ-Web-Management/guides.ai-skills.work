@@ -50,16 +50,18 @@ WebMCP registers `search_guides`, `get_guide`, and `list_quizzes` through a supp
 
 ## Deployment
 
-The GitHub Actions workflow validates the site and deploys `dist/` to GitHub Pages on pushes to `main`. The repository must have Pages enabled with **GitHub Actions** as the source. Enabling Pages requires repository administration/Pages permissions; the workflow does not pretend the default workflow token can enable a previously unconfigured site.
+GitHub Pages publishes the generated site from **main / (root)**, matching the repository's configured publishing source. The generated files are tracked alongside the source and recorded in `.pages-root-manifest.json`. Do not hand-edit generated pages; update `src/`, then regenerate them.
 
-The workflow reads the real Pages URL and rebuilds all internal links, canonical URLs, sitemaps, and API references for that origin and optional base path. For a custom domain, configure Pages and DNS for `guides.ai-skills.work`, then set repository variables:
-
-```text
-SITE_URL=https://guides.ai-skills.work
-CUSTOM_DOMAIN=guides.ai-skills.work
+```sh
+SITE_URL=https://lj-web-management.github.io/guides.ai-skills.work npm run build
+node scripts/publish-root.mjs --stage
 ```
 
-Only set these after configuring the matching host. A default project Pages deployment can omit both variables. Local builds default to `https://guides.ai-skills.work`; override `SITE_URL` to prepare another deployment. `CUSTOM_DOMAIN` generates a matching `CNAME` file.
+The publisher protects application source and refuses to overwrite existing unrelated files or manual changes to its previous output. Running it again with the same build produces the same release. The public `site-release.json` identifies the generated content used for live verification.
+
+The GitHub Actions workflow validates changes, builds for the real Pages URL, and updates generated pages on main. When a bot commit is needed, it explicitly requests a Pages rebuild, because commits made with the workflow token do not automatically trigger one. Live checks wait for the expected release and verify the homepage, lessons, quizzes, production assets, and discovery resources over HTTPS.
+
+The default live URL is `https://lj-web-management.github.io/guides.ai-skills.work/`. For a custom domain, configure Pages and DNS first, then set the repository's `SITE_URL` and `CUSTOM_DOMAIN` variables to the matching HTTPS origin and hostname. The generator supports the default project base path as well as a custom domain root.
 
 Any static host can serve `dist/`. `_headers` supplies security headers and public API CORS for hosts that support it; GitHub Pages does not honor that file. Same-origin API access works independently. The application also includes a restrictive CSP meta tag for hosts without custom headers.
 

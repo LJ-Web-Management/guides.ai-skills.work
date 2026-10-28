@@ -1,0 +1,65 @@
+{
+  "slug": "ai-for-administration",
+  "category": "roles",
+  "title": "AI for administration",
+  "description": "Practical ways to organize documents, prepare meetings, and support follow-ups while protecting workplace information.",
+  "sections": [
+    {
+      "title": "Organize information for a clear purpose",
+      "body": "Use an approved assistant to turn permitted notes into a checklist, agenda, or document outline. Specify who will use it and which facts must remain unchanged. Administration often involves details that create real commitments, so verify names, dates, locations, and responsibilities against the original.",
+      "bullets": [
+        "Start with public templates or fictional notes.",
+        "Keep the source document available during review."
+      ]
+    },
+    {
+      "title": "Prepare meetings and follow-ups",
+      "body": "Ask for an agenda built around decisions needed, then draft a summary after the meeting. Separate agreed actions from suggestions. Mark missing owners or dates as unconfirmed. Review calendar time zones and recipients manually before creating invitations or sending messages.",
+      "bullets": [
+        "Check whether recording or transcription is permitted.",
+        "Confirm the final action list with the relevant people."
+      ]
+    },
+    {
+      "title": "Create a repeatable quality checklist",
+      "body": "Build a short checklist for recurring outputs: complete, correct, appropriately shared, and easy to act on. Use templates to make the review consistent. If you automate a handoff, test duplicates and failures and keep a person responsible for external commitments.",
+      "bullets": [
+        "Review permissions on shared documents.",
+        "Measure correction time as well as drafting time."
+      ]
+    }
+  ],
+  "example": {
+    "title": "Try this workflow",
+    "text": "Give an approved assistant fictional meeting notes and request a three-section follow-up: decisions, actions, and open questions. Check that a suggested date was not turned into an agreed deadline."
+  },
+  "exercise": "Build an agenda template with a purpose, decision needed, preparation, owner, and time allocation.",
+  "faq": [
+    {
+      "question": "Can AI manage a calendar without review?",
+      "answer": "Some systems can change calendars, but invitations, time zones, privacy, and commitments need appropriate controls."
+    },
+    {
+      "question": "What is a good first task?",
+      "answer": "A low-stakes document outline or agenda from non-sensitive notes is a useful starting point."
+    }
+  ],
+  "sourceKeys": [
+    "privacy",
+    "nist"
+  ],
+  "level": "Role guide",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "ICO: Artificial intelligence and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/roles/ai-for-administration/index.md"
+}

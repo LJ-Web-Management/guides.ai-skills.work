@@ -1,0 +1,65 @@
+{
+  "slug": "ai-images-and-presentations",
+  "category": "work",
+  "title": "Turn an idea into a visual story",
+  "description": "Create clearer visual briefs, useful presentation outlines, and accessible AI-assisted images.",
+  "sections": [
+    {
+      "title": "Write a visual brief",
+      "body": "Describe the purpose, audience, subject, layout, mood, and practical constraints. Specify where the image will appear and whether space is needed for text. For a presentation, begin with the message and evidence before choosing visuals. Attractive slides cannot repair an unclear argument.",
+      "bullets": [
+        "Use references you have permission to share.",
+        "Specify dimensions and accessibility needs."
+      ]
+    },
+    {
+      "title": "Refine the result deliberately",
+      "body": "Review one aspect at a time, such as composition, contrast, or consistency. Check generated text, diagrams, charts, and human details carefully. Use real data for charts and verify labels. For slides, reduce unnecessary words and make the relationship between the visual and the point explicit.",
+      "bullets": [
+        "Avoid presenting synthetic images as documentary evidence.",
+        "Keep a consistent visual language across a deck."
+      ]
+    },
+    {
+      "title": "Check rights and accessibility",
+      "body": "Read the tool’s terms and consider applicable rights, consent, trademarks, and organizational policy. Permission to use a tool does not automatically settle rights in every output. Add useful alternative text, check contrast, and make important information available as actual text rather than only inside an image.",
+      "bullets": [
+        "Use human review for public-facing material.",
+        "Keep source files and a record of key inputs."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A stronger image brief",
+    "text": "Create a simple illustration of a person learning at a desk for an introductory AI guide. Use a calm palette, leave clear space on the left for a heading, and include no embedded text or recognizable real person."
+  },
+  "exercise": "Outline a three-slide explanation of a familiar topic. Give each slide one message, one supporting fact, and one visual that makes the idea clearer.",
+  "faq": [
+    {
+      "question": "Can I use any AI image commercially?",
+      "answer": "Check the specific tool’s current terms and the rights involved in the input and output. Requirements vary by context and jurisdiction."
+    },
+    {
+      "question": "Should a chart be generated as an image?",
+      "answer": "Use verified data and charting software for factual charts. An image model can produce plausible but inaccurate labels and values."
+    }
+  ],
+  "sourceKeys": [
+    "nist",
+    "unesco"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "name": "UNESCO: AI in education",
+      "url": "https://www.unesco.org/en/digital-education/artificial-intelligence"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/work/ai-images-and-presentations/index.md"
+}

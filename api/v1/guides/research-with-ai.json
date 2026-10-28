@@ -1,0 +1,65 @@
+{
+  "slug": "research-with-ai",
+  "category": "work",
+  "title": "Research with a sharper starting point",
+  "description": "Use AI to organize a research question, find evidence, and produce a source-backed summary.",
+  "sections": [
+    {
+      "title": "Turn your question into a research plan",
+      "body": "Define what you need to decide, which time period matters, and what would count as useful evidence. Ask an assistant to suggest subquestions and search terms. Check the scope before collecting information. A broad question such as what is happening in AI becomes more useful when narrowed to a particular task, industry, and location.",
+      "bullets": [
+        "Separate background information from decision-critical facts.",
+        "List what would change your conclusion."
+      ]
+    },
+    {
+      "title": "Find and inspect original evidence",
+      "body": "Use AI suggestions as leads. Open original documentation, research, or official statistics and check the date, methodology, and scope. Ask whether the source actually supports the claim. When a tool cannot browse, request search terms rather than pretending it has checked current information.",
+      "bullets": [
+        "Record source links beside your notes.",
+        "Compare independent sources for disputed claims."
+      ]
+    },
+    {
+      "title": "Write a summary that preserves uncertainty",
+      "body": "Organize findings into what the evidence supports, where sources disagree, and what remains unknown. Link important claims to their sources. Keep recommendations separate from facts. If a decision depends on missing information, say what further research is needed rather than filling the gap with a plausible guess.",
+      "bullets": [
+        "Include relevant limits and assumptions.",
+        "Check every quotation and numerical claim before sharing."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A useful research brief",
+    "text": "Compare three public training options for a small support team. Record the current syllabus, accessibility, time commitment, price date, and source. Ask AI to structure the comparison, then verify the entries yourself."
+  },
+  "exercise": "Choose a narrow question. Find two original sources, summarize their agreement and disagreement, and explain what you still do not know.",
+  "faq": [
+    {
+      "question": "Can I cite an AI answer as evidence?",
+      "answer": "For factual research, cite the original evidence. Follow your institution’s rules if you also need to acknowledge AI assistance."
+    },
+    {
+      "question": "What if the assistant cannot browse?",
+      "answer": "Use it to develop questions and organize material you provide. Do not treat its response as a current web search."
+    }
+  ],
+  "sourceKeys": [
+    "nist",
+    "prompting"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "name": "OpenAI: Prompt engineering guide",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/work/research-with-ai/index.md"
+}

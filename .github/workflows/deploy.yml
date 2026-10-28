@@ -1,4 +1,4 @@
-name: Validate and deploy the Field Guide
+name: Validate and publish the Field Guide
 
 on:
   push:
@@ -16,71 +16,63 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
-      - name: Use the generated site as the Pages publishing source
-        if: github.event_name != 'pull_request'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          mode=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type)
-          if [ "$mode" != "workflow" ]; then
-            gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow --silent
-          fi
-      - name: Read the configured Pages URL
-        if: github.event_name != 'pull_request'
-        id: pages
-        uses: actions/configure-pages@v6
-      - name: Install locked dependencies
-        run: npm ci
-      - name: Install Chromium for browser validation
-        run: npx playwright install --with-deps chromium
-      - name: Build and validate
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Validate the application
         run: npm run check
-      - name: Build for the deployment URL
+      - name: Build for the live GitHub Pages URL
         if: github.event_name != 'pull_request'
-        run: npm run build
         env:
-          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://lj-web-management.github.io/guides.ai-skills.work' }}
           CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
-      - name: Validate deployment paths and discovery resources
+        run: npm run build && npm test
+      - uses: actions/upload-artifact@v6
         if: github.event_name != 'pull_request'
-        run: npm test
-        env:
-          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url }}
-      - name: Upload Pages artifact
-        if: github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v4
         with:
+          name: static-site
           path: dist
+          include-hidden-files: true
+          retention-days: 3
 
-  deploy:
+  publish:
     if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main
       - uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v5
-      - name: Verify the live website and discovery resources
+      - uses: actions/download-artifact@v7
+        with:
+          name: static-site
+          path: dist
+      - name: Publish generated pages to the configured main branch root
         env:
-          SITE_URL: ${{ steps.deployment.outputs.page_url }}
-        run: node scripts/verify-live.mjs "$SITE_URL"
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node scripts/publish-root.mjs --stage
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Publish generated GitHub Pages site [skip ci]'
+            git push origin main
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" --silent
+          fi
+      - name: Verify this release on the live website
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://lj-web-management.github.io/guides.ai-skills.work' }}
+        run: |
+          export EXPECTED_RELEASE=$(node -p 'JSON.parse(require("fs").readFileSync(".pages-root-manifest.json","utf8")).release')
+          node scripts/verify-live.mjs "$SITE_URL"

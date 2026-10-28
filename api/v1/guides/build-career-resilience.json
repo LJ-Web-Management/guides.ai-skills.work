@@ -1,0 +1,65 @@
+{
+  "slug": "build-career-resilience",
+  "category": "careers",
+  "title": "Build confidence for changing work",
+  "description": "Develop practical AI skills alongside the judgment, communication, and industry knowledge your work needs.",
+  "sections": [
+    {
+      "title": "Start with your existing strengths",
+      "body": "Your knowledge of customers, processes, standards, and exceptions helps you judge AI output. Identify situations where you make a decision that depends on context. These strengths can become more valuable when more routine material is generated quickly. Keep developing them instead of treating a new tool as a complete replacement for professional knowledge.",
+      "bullets": [
+        "Write down examples of useful judgment.",
+        "Ask colleagues which parts of your work they rely on."
+      ]
+    },
+    {
+      "title": "Add skills that connect to real work",
+      "body": "Choose a relevant AI skill and practice it on a permitted task. Learn how to give instructions, check outputs, protect information, and explain your method. Combine this with communication, data literacy, and process improvement. A practical combination is easier to demonstrate than a long list of unfamiliar tools.",
+      "bullets": [
+        "Choose one measurable learning outcome.",
+        "Ask a knowledgeable person for feedback."
+      ]
+    },
+    {
+      "title": "Keep evidence and revisit the plan",
+      "body": "Document what changed, what improved, and where the method failed. Include correction time and quality checks when describing results. Revisit your plan as the team’s needs change. Career resilience is an ongoing practice, not a guarantee that a role will stay the same.",
+      "bullets": [
+        "Keep a small portfolio of sanitized examples.",
+        "Update your learning priorities periodically."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A useful capability statement",
+    "text": "I can turn approved meeting notes into a reviewed action summary, check every commitment against the source, and identify missing owners or dates. This describes a practical skill more clearly than saying AI expert."
+  },
+  "exercise": "Choose one current strength and one AI skill that could complement it. Design a small project that demonstrates both.",
+  "faq": [
+    {
+      "question": "Do I need to become an AI engineer?",
+      "answer": "Not for most nontechnical roles. Focus first on applying approved tools responsibly in your own work."
+    },
+    {
+      "question": "Are certificates enough?",
+      "answer": "A certificate may support your learning record, but practical examples and sound explanations help demonstrate what you can actually do."
+    }
+  ],
+  "sourceKeys": [
+    "oecd",
+    "literacy"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "OECD: Artificial intelligence and the future of work",
+      "url": "https://www.oecd.org/en/topics/artificial-intelligence-and-work.html"
+    },
+    {
+      "name": "European Commission: AI literacy questions and answers",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/careers/build-career-resilience/index.md"
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "fact-checking",
+  "title": "Can you spot a shaky answer?",
+  "description": "Practice checking evidence, citations, and convincing mistakes.",
+  "color": "mint",
+  "icon": "check",
+  "guideSlug": "fact-check-ai-answers",
+  "questions": [
+    {
+      "question": "An assistant gives a detailed citation. What should you do?",
+      "options": [
+        "Assume detail means it is real",
+        "Open the source and check the exact claim",
+        "Only check the author’s name"
+      ],
+      "correct": 1,
+      "explanation": "A citation may be fabricated or may not support the claim. Inspect the original source and context."
+    },
+    {
+      "question": "A budget falls from 100 to 80. What is the percentage reduction?",
+      "options": [
+        "25%",
+        "80%",
+        "20%"
+      ],
+      "correct": 2,
+      "explanation": "The reduction is 20 divided by the original 100, which is 20%."
+    },
+    {
+      "question": "A second chatbot agrees with the first. Is that independent proof?",
+      "options": [
+        "No, both may repeat the same unsupported claim",
+        "Yes, two answers are always enough",
+        "Yes, if their wording differs"
+      ],
+      "correct": 0,
+      "explanation": "Agreement between generated answers does not replace independent evidence."
+    },
+    {
+      "question": "Which source is usually most useful for a product’s current file limits?",
+      "options": [
+        "An undated generated paragraph",
+        "The product’s current official documentation",
+        "An unrelated forum title"
+      ],
+      "correct": 1,
+      "explanation": "Current official documentation is the primary reference for the product’s own limits, subject to checking the applicable plan and context."
+    },
+    {
+      "question": "A claim cannot be verified before a decision. What is a responsible response?",
+      "options": [
+        "Present it as certain anyway",
+        "Hide it in a footnote",
+        "Mark the uncertainty and explain what evidence is missing"
+      ],
+      "correct": 2,
+      "explanation": "Visible uncertainty helps people assess the claim and decide whether more evidence is required."
+    },
+    {
+      "question": "Does a correlation prove one thing caused another?",
+      "options": [
+        "No, other explanations may remain",
+        "Yes, if a chart looks convincing",
+        "Only if AI wrote the explanation"
+      ],
+      "correct": 0,
+      "explanation": "Correlation alone does not establish causation. Study design and alternative explanations matter."
+    }
+  ]
+}

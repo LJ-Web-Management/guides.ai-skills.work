@@ -1,0 +1,65 @@
+{
+  "slug": "start-coding-with-ai",
+  "category": "work",
+  "title": "Your first coding companion",
+  "description": "Use AI to understand code, build a small project, and test changes without losing control of the work.",
+  "sections": [
+    {
+      "title": "Choose a small, understandable project",
+      "body": "Start with something you can describe and test, such as a local page that converts a measurement. Ask for an explanation of the files and how to run them. Learn enough about the language and environment to recognize what the code is doing. Keep an original copy or use version control before making changes.",
+      "bullets": [
+        "Define one feature and an observable result.",
+        "Use official documentation to check unfamiliar commands."
+      ]
+    },
+    {
+      "title": "Make small changes and inspect them",
+      "body": "Ask for one change at a time and review the difference. Do not run unfamiliar shell commands without understanding their effect. Keep credentials out of prompts, source files, and commits. Treat code copied from an assistant with the same care as code from another untrusted source.",
+      "bullets": [
+        "Request explanations of dependencies and permissions.",
+        "Avoid running a development server with unnecessary public access."
+      ]
+    },
+    {
+      "title": "Test behavior, including failure cases",
+      "body": "Check the expected result and invalid inputs. For larger changes, use appropriate automated tests and review security-sensitive behavior. A program starting without errors does not prove it is correct. If a change fails, share the relevant error and a minimal example instead of repeatedly asking for a complete rewrite.",
+      "bullets": [
+        "Check keyboard and mobile behavior for interfaces.",
+        "Review dependencies and use supported versions."
+      ]
+    }
+  ],
+  "example": {
+    "title": "A meaningful first test",
+    "text": "For a temperature converter, check zero, a negative number, a decimal, and an empty input. Confirm the expected results with a known formula. A colorful interface is not a substitute for correct conversion."
+  },
+  "exercise": "Write the input, expected output, and two invalid cases for a tiny project before asking an assistant to create the implementation.",
+  "faq": [
+    {
+      "question": "Can I build software without understanding code?",
+      "answer": "AI can help you start, but understanding the behavior and obtaining appropriate review becomes more important as the software affects real people or data."
+    },
+    {
+      "question": "Should I paste a whole private codebase into a chatbot?",
+      "answer": "Only through an approved service with suitable permissions and data controls. A minimal sanitized example is often more useful."
+    }
+  ],
+  "sourceKeys": [
+    "security",
+    "nist"
+  ],
+  "level": "Beginner friendly",
+  "url": "https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/",
+  "updated": "2026-10-28",
+  "sources": [
+    {
+      "name": "OWASP: Top risks for generative AI applications",
+      "url": "https://genai.owasp.org/llm-top-10/"
+    },
+    {
+      "name": "NIST: AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "markdown": "https://lj-web-management.github.io/guides.ai-skills.work/work/start-coding-with-ai/index.md"
+}
