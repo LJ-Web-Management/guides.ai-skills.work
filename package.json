@@ -1,0 +1,23 @@
+{
+  "name": "ai-skills-field-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/server.mjs --dev",
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "test:e2e": "playwright test",
+    "check": "npm run build && npm test && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/newsreader": "5.3.0",
+    "@playwright/test": "1.64.1"
+  }
+}
