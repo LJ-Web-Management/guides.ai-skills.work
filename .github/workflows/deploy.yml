@@ -18,13 +18,22 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: read
+      pages: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
+      - name: Use the generated site as the Pages publishing source
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mode=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type)
+          if [ "$mode" != "workflow" ]; then
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow --silent
+          fi
       - name: Read the configured Pages URL
         if: github.event_name != 'pull_request'
         id: pages
@@ -57,12 +66,21 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .node-version
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
+      - name: Verify the live website and discovery resources
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node scripts/verify-live.mjs "$SITE_URL"
