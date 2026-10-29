@@ -109,6 +109,7 @@ em { font-family:inherit;font-style:normal;font-weight:inherit;color:var(--brand
 @media(max-width:1023px) {
   .site-header .desktop-nav { display:none; }
   .site-header .menu-toggle { display:flex; }
+  .learning-navigation { display:none; }
   .learning-navigation-inner { gap:15px; }
   .learning-navigation nav { gap:2px; }
   .learning-navigation nav>a { font-size:10px;padding-inline:8px; }
