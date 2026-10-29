@@ -12,7 +12,16 @@ test('home, lesson, and navigation work without horizontal overflow',async({page
   await page.goto('/');
   if(testInfo.project.name==='mobile'){
     await page.getByRole('button',{name:'Open navigation'}).click();await expect(page.locator('#mobile-nav')).toBeVisible();
+    await expect(page.locator('.mobile-learning-links').getByRole('link',{name:'Learn AI',exact:true})).toBeVisible();
     await page.keyboard.press('Escape');await expect(page.locator('#mobile-nav')).toBeHidden();
+  }else{
+    const trigger=page.locator('.guide-menu>summary');
+    await trigger.click();await expect(page.locator('.guide-menu-panel')).toBeVisible();
+    await page.keyboard.press('Escape');await expect(page.locator('.guide-menu-panel')).toBeHidden();
+    await expect(trigger).toBeFocused();
+    await trigger.click();await page.locator('h1').click();await expect(page.locator('.guide-menu-panel')).toBeHidden();
+    await trigger.click();await page.locator('.guide-menu-panel').getByRole('link',{name:'Learn AI',exact:true}).click();
+    await expect(page).toHaveURL(/\/learn\/$/);await page.goto('/');
   }
   await page.getByRole('link',{name:'Find your starting point'}).click();await expect(page).toHaveURL(/\/learn\/$/);
   expect(errors).toEqual([]);

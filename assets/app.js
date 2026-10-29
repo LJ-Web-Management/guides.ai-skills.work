@@ -8,14 +8,23 @@ const header=document.querySelector('.site-header');
 const syncHeader=()=>header?.classList.toggle('is-scrolled',window.scrollY>16);
 window.addEventListener('scroll',syncHeader,{passive:true});
 syncHeader();
+const guideMenu=document.querySelector('.guide-menu');
+document.addEventListener('click',event=>{
+  if(guideMenu?.open&&!guideMenu.contains(event.target))guideMenu.open=false;
+});
 const menu = document.querySelector('.menu-toggle');
 menu?.addEventListener('click', () => {
+  if(guideMenu)guideMenu.open=false;
   const open = menu.getAttribute('aria-expanded') === 'true';
   menu.setAttribute('aria-expanded', String(!open));
   menu.setAttribute('aria-label', open ? 'Open navigation' : 'Close navigation');
   document.getElementById('mobile-nav').hidden = open;
 });
 document.addEventListener('keydown', event => {
+  if(event.key==='Escape'&&guideMenu?.open){
+    guideMenu.open=false;
+    guideMenu.querySelector('summary').focus();
+  }
   if (event.key === 'Escape' && menu?.getAttribute('aria-expanded') === 'true') {
     menu.click();
     menu.focus();
