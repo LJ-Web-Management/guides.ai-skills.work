@@ -7,8 +7,9 @@ const browser=await chromium.launch();
 try{
   const context=await browser.newContext({viewport:{width:1440,height:1000},deviceScaleFactor:1});
   const page=await context.newPage();
-  const response=await page.goto('https://ai-skills.work/',{waitUntil:'networkidle',timeout:60000});
+  const response=await page.goto('https://ai-skills.work/',{waitUntil:'domcontentloaded',timeout:60000});
   if(!response?.ok())throw new Error(`Main site returned ${response?.status()}.`);
+  await page.waitForFunction(()=>document.body.innerText.trim().length>200,undefined,{timeout:15000});
   await page.evaluate(()=>document.fonts.ready);
   const snapshot=await page.evaluate(()=>{
     const properties=['fontFamily','fontSize','fontWeight','lineHeight','letterSpacing','textTransform','color','backgroundColor','backgroundImage','borderColor','borderWidth','borderRadius','boxShadow','padding','gap','height','maxWidth'];
@@ -29,11 +30,15 @@ try{
     const response=await fetch(logo.src);
     if(response.ok){const type=response.headers.get('content-type')||'';const extension=type.includes('svg')?'svg':type.includes('png')?'png':type.includes('webp')?'webp':type.includes('jpeg')?'jpg':null;if(extension){await writeFile(`${output}/logo.${extension}`,Buffer.from(await response.arrayBuffer()));snapshot.savedLogo=`logo.${extension}`;}}
   }
-  const mobile=await context.newPage({viewport:{width:390,height:844}});
+  const mobile=await context.newPage();
   await mobile.setViewportSize({width:390,height:844});
-  await mobile.goto('https://ai-skills.work/',{waitUntil:'networkidle',timeout:60000});
+  await mobile.goto('https://ai-skills.work/',{waitUntil:'domcontentloaded',timeout:60000});
   await mobile.screenshot({path:`${output}/mobile.png`,fullPage:true,animations:'disabled'});
   snapshot.mobile=await mobile.evaluate(()=>({header:document.querySelector('header')?.outerHTML,buttons:[...document.querySelectorAll('header a,header button')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&r.height;}).map(e=>({text:e.innerText,href:e.href,ariaLabel:e.getAttribute('aria-label')}))}));
   await writeFile(`${output}/reference.json`,JSON.stringify(snapshot,null,2)+'\n');
   console.log('::notice title=Brand reference captured::Captured the public ai-skills.work header, CTAs, fonts, colors, logo, and desktop/mobile appearance.');
+}catch(error){
+  const message=String(error.message).replaceAll('%','%25').replaceAll('\r','%0D').replaceAll('\n','%0A');
+  console.log(`::error title=Main-site reference capture failed::${message}`);
+  throw error;
 }finally{await browser.close();}

@@ -15,7 +15,12 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - name: Install the reference browser
+        run: |
+          if ! npx playwright install --with-deps chromium > /tmp/brand-browser-install.log 2>&1; then
+            python3 -c 'from pathlib import Path; s=Path("/tmp/brand-browser-install.log").read_text()[-3500:]; print("::error title=Reference browser installation failed::"+s.replace("%","%25").replace("\r","%0D").replace("\n","%0A"))'
+            exit 1
+          fi
       - run: node scripts/capture-main-brand.mjs
       - name: Save public design references on this branch
         run: |
