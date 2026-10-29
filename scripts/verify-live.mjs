@@ -21,6 +21,10 @@ for(let attempt=1;attempt<=12;attempt++){
     const html=await(await fetchResource('/')).text();
     if(!/<h1>A little learning\./.test(html))throw new Error('The generated homepage has not reached the live origin yet.');
     if(!html.includes(`rel="canonical" href="${siteUrl}/"`))throw new Error('The homepage canonical does not match the live site URL.');
+    for(const path of ['login','register','get-started'])if(!html.includes(`href="https://ai-skills.work/${path}"`))throw new Error(`The shared main-site ${path} CTA is missing.`);
+    const logo=Buffer.from(await(await fetchResource('/brand/logo.webp')).arrayBuffer());
+    if(logo.subarray(0,4).toString()!=='RIFF'||logo.subarray(8,12).toString()!=='WEBP')throw new Error('The original AI Skills logo is not available.');
+    await fetchResource('/brand/favicon.webp');
     const catalog=await(await fetchResource('/api/v1/catalog.json')).json();
     if(catalog.guides?.length!==34)throw new Error('Expected the complete 34-guide catalog.');
     if(!catalog.guides.every(g=>g.url.startsWith(`${siteUrl}/`)))throw new Error('Guide catalog URLs do not match the live site.');
@@ -39,7 +43,7 @@ for(let attempt=1;attempt<=12;attempt++){
     const app=await(await fetchResource('/assets/app.js')).text();
     if(!app.includes('search_guides')||!app.includes('submit-quiz'))throw new Error('The live interaction script is incomplete.');
     await fetchResource('/assets/quiz-core.js');await fetchResource('/assets/search-core.js');await fetchResource('/assets/style.css');
-    const font=Buffer.from(await(await fetchResource('/assets/dm-sans.woff2')).arrayBuffer());
+    const font=Buffer.from(await(await fetchResource('/assets/plus-jakarta-sans.woff2')).arrayBuffer());
     if(font.subarray(0,4).toString()!=='wOF2')throw new Error('The live font is not a WOFF2 asset.');
     const image=Buffer.from(await(await fetchResource('/social.png')).arrayBuffer());
     if(image.subarray(1,4).toString()!=='PNG')throw new Error('The social sharing image is not a PNG.');

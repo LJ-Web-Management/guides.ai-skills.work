@@ -69,4 +69,4 @@ After deployment, verify the home page, an article, quiz submission, `/sitemap.x
 
 ## Font licenses
 
-DM Sans and Newsreader are self-hosted from their pinned Fontsource packages. Their OFL license texts are copied to `dist/licenses/` during the build. Regenerate the committed social card with `node scripts/create-social.mjs` if the branding changes.
+Plus Jakarta Sans is self-hosted from its pinned Fontsource package, matching the main ai-skills.work website. Its OFL license is copied to `dist/licenses/` during the build. The shared logo and favicon in `public/brand/` are the original main-site assets. `src/brand.mjs` records the verified navigation, CTA destinations, and brand values; `src/brand.css` applies them to the learning center. Regenerate the committed social card with `node scripts/create-social.mjs` if the branding changes.

@@ -17,15 +17,13 @@ await mkdir(output,{recursive:true});
 const write=async(file,content)=>{const target=path.join(output,file);await mkdir(path.dirname(target),{recursive:true});await writeFile(target,content);};
 const writeJSON=(file,data)=>write(file,JSON.stringify(data,null,2)+'\n');
 await cp(path.join(root,'public'),output,{recursive:true});
-await cp(path.join(root,'src/styles.css'),path.join(output,'assets/style.css'));
+await write('assets/style.css',(await readFile(path.join(root,'src/styles.css'),'utf8'))+'\n'+(await readFile(path.join(root,'src/brand.css'),'utf8')));
 await cp(path.join(root,'src/client/app.js'),path.join(output,'assets/app.js'));
 await cp(path.join(root,'src/lib/quiz.mjs'),path.join(output,'assets/quiz-core.js'));
 await cp(path.join(root,'src/lib/search.mjs'),path.join(output,'assets/search-core.js'));
-await cp(path.join(root,'node_modules/@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2'),path.join(output,'assets/dm-sans.woff2'));
-await cp(path.join(root,'node_modules/@fontsource-variable/newsreader/files/newsreader-latin-wght-italic.woff2'),path.join(output,'assets/newsreader-italic.woff2'));
+await cp(path.join(root,'node_modules/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2'),path.join(output,'assets/plus-jakarta-sans.woff2'));
 await mkdir(path.join(output,'licenses'),{recursive:true});
-await cp(path.join(root,'node_modules/@fontsource-variable/dm-sans/LICENSE'),path.join(output,'licenses/dm-sans.txt'));
-await cp(path.join(root,'node_modules/@fontsource-variable/newsreader/LICENSE'),path.join(output,'licenses/newsreader.txt'));
+await cp(path.join(root,'node_modules/@fontsource-variable/plus-jakarta-sans/LICENSE'),path.join(output,'licenses/plus-jakarta-sans.txt'));
 
 const pages=new Map();
 const add=(route,html)=>pages.set(route,html);
@@ -59,7 +57,7 @@ await write('sitemap-pages.xml',sitemap(otherRoutes));
 await write('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['guides','quizzes','pages'].map(name=>`<sitemap><loc>${xmlEsc(absolute(`/sitemap-${name}.xml`))}</loc><lastmod>${site.updated}</lastmod></sitemap>`).join('')}</sitemapindex>\n`);
 await write('robots.txt',`User-agent: *\nAllow: /\n\nSitemap: ${absolute('/sitemap.xml')}\n`);
 await write('feed.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>${xmlEsc(site.title)}</title><id>${xmlEsc(site.url)}/</id><link href="${xmlEsc(absolute('/feed.xml'))}" rel="self"/><link href="${xmlEsc(site.url)}/"/><updated>${site.updated}T00:00:00Z</updated><author><name>ai-skills.work</name></author>${guides.map(g=>`<entry><title>${xmlEsc(g.title)}</title><id>${xmlEsc(absolute(guidePath(g)))}</id><link href="${xmlEsc(absolute(guidePath(g)))}"/><updated>${site.updated}T00:00:00Z</updated><summary>${xmlEsc(g.description)}</summary></entry>`).join('')}</feed>\n`);
-await writeJSON('site.webmanifest',{name:site.title,short_name:'AI Field Guide',start_url:href('/'),display:'browser',background_color:'#faf9f6',theme_color:'#faf9f6',icons:[{src:href('/favicon.svg'),sizes:'any',type:'image/svg+xml',purpose:'any'}]});
+await writeJSON('site.webmanifest',{name:site.title,short_name:'AI Field Guide',start_url:href('/'),display:'browser',background_color:'#f9fcff',theme_color:'#f9fcff',icons:[{src:href('/brand/favicon.webp'),sizes:'any',type:'image/webp',purpose:'any'}]});
 await write('.nojekyll','');
 if(process.env.CUSTOM_DOMAIN){
   if(!/^(?!-)[a-z0-9.-]+(?<!-)$/.test(process.env.CUSTOM_DOMAIN)||process.env.CUSTOM_DOMAIN!==url.hostname)throw new Error('CUSTOM_DOMAIN must be a valid hostname matching SITE_URL.');

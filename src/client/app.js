@@ -4,6 +4,10 @@ import { searchGuides } from './search-core.js';
 const base = document.documentElement.dataset.base || '';
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arrow = '<span aria-hidden="true">↗</span>';
+const header=document.querySelector('.site-header');
+const syncHeader=()=>header?.classList.toggle('is-scrolled',window.scrollY>16);
+window.addEventListener('scroll',syncHeader,{passive:true});
+syncHeader();
 const menu = document.querySelector('.menu-toggle');
 menu?.addEventListener('click', () => {
   const open = menu.getAttribute('aria-expanded') === 'true';
