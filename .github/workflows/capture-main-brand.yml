@@ -1,0 +1,26 @@
+name: Capture the public main-site brand reference
+on:
+  push:
+    branches: [codex/capture-main-brand-20261029]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/capture-main-brand.mjs
+      - name: Save public design references on this branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add references/main-brand
+          git commit -m 'Capture public main-site brand reference [skip ci]'
+          git push origin HEAD
