@@ -81,6 +81,31 @@
   "headerLinks": [
     {
       "tag": "A",
+      "text": "",
+      "href": "https://ai-skills.work/",
+      "className": "flex items-center active",
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "-0.32px",
+        "textTransform": "none",
+        "color": "oklch(0.18 0.04 250.33)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "oklch(0.9 0.012 250.33)",
+        "borderWidth": "0px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "gap": "normal",
+        "height": "30px",
+        "maxWidth": "none"
+      }
+    },
+    {
+      "tag": "A",
       "text": "Home",
       "href": "https://ai-skills.work/#top",
       "className": "relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors bg-secondary text-foreground",
@@ -306,6 +331,31 @@
     }
   ],
   "links": [
+    {
+      "tag": "A",
+      "text": "",
+      "href": "https://ai-skills.work/",
+      "className": "flex items-center active",
+      "style": {
+        "fontFamily": "\"Plus Jakarta Sans\", Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "-0.32px",
+        "textTransform": "none",
+        "color": "oklch(0.18 0.04 250.33)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "oklch(0.9 0.012 250.33)",
+        "borderWidth": "0px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "gap": "normal",
+        "height": "30px",
+        "maxWidth": "none"
+      }
+    },
     {
       "tag": "A",
       "text": "Home",
@@ -1534,19 +1584,25 @@
   ],
   "images": [
     {
-      "src": "",
+      "src": "https://ai-skills.work/assets/AI-SKILLS-BQ3LC_q1.webp",
+      "alt": "AI Skills",
+      "width": 134,
+      "height": 30
+    },
+    {
+      "src": "https://staging-media.hazwoper-osha.com/wp-content/uploads/2026/09/1789990038/AdobeStock1634742965.webp",
       "alt": "Where can I start?",
       "width": 582,
       "height": 387
     },
     {
-      "src": "",
+      "src": "https://staging-media.hazwoper-osha.com/wp-content/uploads/2026/09/1790153404/AdobeStock627263283.webp",
       "alt": "How do I stay on track?",
       "width": 582,
       "height": 387
     },
     {
-      "src": "",
+      "src": "https://staging-media.hazwoper-osha.com/wp-content/uploads/2026/09/1790330676/AdobeStock425210730.webp",
       "alt": "What can I automate?",
       "width": 582,
       "height": 387
@@ -1556,6 +1612,12 @@
       "alt": "Workbot Preview",
       "width": 574,
       "height": 323
+    },
+    {
+      "src": "https://ai-skills.work/assets/AI-SKILLS-BQ3LC_q1.webp",
+      "alt": "AI Skills",
+      "width": 116,
+      "height": 26
     }
   ],
   "inlineLogos": [
@@ -1612,8 +1674,8 @@
     "--color-secondary": "oklch(84.96% .0711 191.43)",
     "--color-green-800": "oklch(44.8% .119 151.328)",
     "--font-weight-semibold": "600",
-    "--color-slate-100": "oklch(96.8% .007 247.896)",
     "--color-green-400": "oklch(79.2% .209 151.711)",
+    "--color-slate-100": "oklch(96.8% .007 247.896)",
     "--color-emerald-500": "oklch(69.6% .17 162.48)",
     "--color-blue-500": "oklch(62.3% .214 259.815)",
     "--color-popover-foreground": "oklch(16% .04 250.33)",
@@ -1626,12 +1688,12 @@
     "--color-primary": "oklch(31.65% .0893 250.33)",
     "--color-red-600": "oklch(57.7% .245 27.325)",
     "--color-black": "#000",
-    "--accent-emerald": "oklch(31.65% .0893 250.33)",
     "--font-weight-medium": "500",
-    "--font-weight-normal": "400",
     "--color-foreground": "oklch(18% .04 250.33)",
-    "--radius-xs": ".125rem",
+    "--font-weight-normal": "400",
     "--color-green-700": "oklch(52.7% .154 150.069)",
+    "--radius-xs": ".125rem",
+    "--accent-emerald": "oklch(31.65% .0893 250.33)",
     "--color-teal-500": "oklch(70.4% .14 182.503)",
     "--primary": "oklch(31.65% .0893 250.33)",
     "--default-mono-font-family": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
@@ -1641,6 +1703,56 @@
     "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
     "https://ai-skills.work/assets/index-Bozhcspk.css"
   ],
+  "savedLogo": "logo.webp",
+  "headingDetails": [
+    {
+      "text": "Practical AI training\nfor the work\nyou already do!",
+      "html": "Practical AI training <br>for the work <br>you already do!",
+      "children": []
+    },
+    {
+      "text": "Real Tasks\nReal Results\nFrom Day One",
+      "html": "Real Tasks<br>Real Results<br>From <span class=\"text-teal-600\">Day One</span>",
+      "children": [
+        {
+          "text": "Day One",
+          "color": "oklch(0.6 0.118 184.704)"
+        }
+      ]
+    },
+    {
+      "text": "Built for results measured every week",
+      "html": "Built for results measured every week",
+      "children": []
+    },
+    {
+      "text": "Simple steps, zero overwhelm",
+      "html": "Simple steps, zero overwhelm",
+      "children": []
+    },
+    {
+      "text": "Precise guidance built\naround your work.",
+      "html": "Precise guidance built <br>around your work.",
+      "children": []
+    },
+    {
+      "text": "From overview\nto implementation",
+      "html": "From overview <br>to implementation",
+      "children": []
+    },
+    {
+      "text": "Questions answered honestly",
+      "html": "Questions answered honestly",
+      "children": []
+    },
+    {
+      "text": "Your first AI win\nis closer than\nyou think.",
+      "html": "Your first AI win <br>is closer than <br>you think.",
+      "children": []
+    }
+  ],
+  "favicon": "https://staging-media.hazwoper-osha.com/wp-content/uploads/2026/07/1785134333/infuseai-icon.webp",
+  "savedFavicon": "favicon.webp",
   "mobile": {
     "header": "<header class=\"font-display fixed left-0 top-0 z-40 w-full transition-all duration-200 border-b border-transparent bg-transparent\"><div class=\"mx-auto flex w-full max-w-330 items-center justify-between px-4 sm:px-6 lg:px-8 transition-all duration-200 py-2 sm:py-2.5\"><a aria-label=\"AI Skills\" class=\"flex items-center active\" href=\"/\" data-status=\"active\" aria-current=\"page\"><img alt=\"AI Skills\" class=\"h-6.5 w-auto sm:h-7.5 object-contain\" src=\"/assets/AI-SKILLS-BQ3LC_q1.webp\"></a><nav class=\"hidden items-center gap-1 lg:flex\"><a href=\"#top\" class=\"relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors bg-secondary text-foreground\">Home</a><a href=\"#showcase\" class=\"relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors text-foreground/70 hover:bg-secondary/60 hover:text-foreground\">Showcase</a><a href=\"#features\" class=\"relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors text-foreground/70 hover:bg-secondary/60 hover:text-foreground\">Features</a><a href=\"#how\" class=\"relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors text-foreground/70 hover:bg-secondary/60 hover:text-foreground\">How it Works</a><a href=\"#testimonials\" class=\"relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors text-foreground/70 hover:bg-secondary/60 hover:text-foreground\">Stories</a><a href=\"#faq\" class=\"relative rounded-md px-3 py-1.5 text-[13px] font-bold transition-colors text-foreground/70 hover:bg-secondary/60 hover:text-foreground\">FAQs</a></nav><div class=\"flex items-center gap-2.5 sm:gap-3\"><a href=\"/login\" class=\"text-[13px] font-semibold text-foreground/70 hover:text-foreground px-3 py-1.5 rounded-md hover:bg-secondary/60 transition-colors\">Sign In</a><a href=\"/register\" class=\"btn-primary hidden px-3.5 py-1.5 text-sm md:inline-flex\">Sign Up</a><a href=\"/get-started\" class=\"btn-ghost hidden gap-1.5 px-3.5 py-1.5 text-sm md:inline-flex\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles h-3.5 w-3.5 text-primary\" aria-hidden=\"true\"><path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"></path><path d=\"M20 2v4\"></path><path d=\"M22 4h-4\"></path><circle cx=\"4\" cy=\"20\" r=\"2\"></circle></svg>Start Learning</a><button class=\"inline-flex h-8 w-8 items-center justify-center rounded-md lg:hidden\" aria-label=\"Open menu\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-menu h-5 w-5 text-foreground\" aria-hidden=\"true\"><path d=\"M4 5h16\"></path><path d=\"M4 12h16\"></path><path d=\"M4 19h16\"></path></svg></button></div></div></header>",
     "buttons": [
